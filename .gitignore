@@ -1,0 +1,15 @@
+state/
+downloads/
+.browser_profile_*/
+node_modules/
+.local_libs/
+.env
+.env.*
+*.log
+*.pid
+*.part
+*.pdf
+__pycache__/
+*.pyc
+*.pyo
+.scratch/

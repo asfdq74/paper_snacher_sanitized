@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./puzzle.html">
+  <title>本地滑块识别测试</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 20% 10%, #1b365d 0, transparent 38%),
+        radial-gradient(circle at 85% 90%, #3a1b4d 0, transparent 34%),
+        #0b1220;
+      color: #eaf0fa;
+    }
+
+    .card {
+      width: min(420px, calc(100vw - 32px));
+      padding: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 22px;
+      background: rgba(19, 31, 52, 0.94);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      letter-spacing: 0.02em;
+    }
+
+    .hint {
+      margin: 0 0 20px;
+      color: #9db0cc;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .stage {
+      position: relative;
+      width: 360px;
+      height: 180px;
+      margin: 0 auto;
+      max-width: 100%;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      background: #17263d;
+    }
+
+    #scene {
+      display: block;
+      width: 360px;
+      height: 180px;
+      max-width: 100%;
+    }
+
+    #piece {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 54px;
+      height: 54px;
+      border: 2px solid rgba(255, 255, 255, 0.82);
+      border-radius: 13px;
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.4), transparent 42%),
+        linear-gradient(135deg, #7b61ff, #35c5f0);
+      box-shadow:
+        0 10px 22px rgba(0, 0, 0, 0.34),
+        inset 0 0 18px rgba(255, 255, 255, 0.16);
+      pointer-events: none;
+      will-change: transform;
+    }
+
+    .track {
+      position: relative;
+      height: 48px;
+      margin-top: 16px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #0b1525;
+      box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.42);
+    }
+
+    .track::before {
+      content: "";
+      position: absolute;
+      inset: 15px 18px;
+      border-radius: 999px;
+      background: repeating-linear-gradient(
+        90deg,
+        rgba(157, 176, 204, 0.12) 0 8px,
+        transparent 8px 16px
+      );
+    }
+
+    #handle {
+      position: absolute;
+      inset: 5px auto 5px 0;
+      width: 72px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.42);
+      border-radius: 999px;
+      background: linear-gradient(180deg, #6f8cff, #4c68e8);
+      color: white;
+      font: inherit;
+      font-size: 12px;
+      font-weight: 650;
+      cursor: grab;
+      touch-action: none;
+      user-select: none;
+      will-change: left;
+    }
+
+    #handle.dragging {
+      cursor: grabbing;
+      filter: brightness(1.08);
+    }
+
+    #handle:focus-visible,
+    button:focus-visible {
+      outline: 3px solid #75e0ff;
+      outline-offset: 3px;
+    }
+
+    .status-row {
+      min-height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    #result {
+      margin: 0;
+      color: #aabbd4;
+      font-size: 14px;
+    }
+
+    #result[data-state="success"] {
+      color: #72e6aa;
+      font-weight: 650;
+    }
+
+    #result[data-state="fail"] {
+      color: #ff8ea8;
+    }
+
+    #newChallenge {
+      flex: none;
+      padding: 8px 13px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 10px;
+      background: #21314d;
+      color: #dce7f8;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    #newChallenge:hover {
+      background: #2a3d5e;
+    }
+
+    .debug {
+      margin: 14px 0 0;
+      color: #7285a2;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    code {
+      color: #b9ccff;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>本地滑块识别测试</h1>
+    <p class="hint">背景中有一个纯洋红色缺口。脚本需要从 Canvas 像素里找到它，再把上方方块拖到对应位置。</p>
+
+    <div class="stage">
+      <canvas id="scene" width="360" height="180"></canvas>
+      <div id="piece" aria-hidden="true"></div>
+    </div>
+
+    <div id="track" class="track">
+      <button id="handle" type="button" aria-label="拖动滑块">按住拖动</button>
+    </div>
+
+    <div class="status-row">
+      <p id="result" role="status" data-state="idle">等待拖动…</p>
+      <button id="newChallenge" type="button">换一题</button>
+    </div>
+
+    <p class="debug">缺口颜色固定为 <code>#ff00ff</code>；坐标只保存在页面闭包里，不写入 DOM 或 URL。</p>
+  </main>
+
+  <script>
+    (() => {
+      const canvas = document.querySelector('#scene');
+      const ctx = canvas.getContext('2d', { willReadFrequently: true });
+      const piece = document.querySelector('#piece');
+      const track = document.querySelector('#track');
+      const handle = document.querySelector('#handle');
+      const result = document.querySelector('#result');
+      const nextButton = document.querySelector('#newChallenge');
+
+      const SIZE = 54;
+      const TOLERANCE = 6;
+      const HOLE_COLOR = '#ff00ff';
+      const palette = ['#1d5f91', '#277da1', '#43aa8b', '#f9c74f', '#f9844a', '#90be6d', '#577590'];
+
+      let gapX = 0;
+      let gapY = 0;
+      let pieceX = 0;
+      let dragging = false;
+      let solved = false;
+      let pointerStartX = 0;
+      let pieceStartX = 0;
+      let pointerId = null;
+
+      const random = (min, max) => min + Math.random() * (max - min);
+
+      function roundedRect(context, x, y, width, height, radius) {
+        context.beginPath();
+        context.roundRect(x, y, width, height, radius);
+      }
+
+      function setStatus(text, state = 'idle') {
+        result.textContent = text;
+        result.dataset.state = state;
+        document.body.dataset.solved = solved ? '1' : '0';
+      }
+
+      function setPieceX(value) {
+        const maxTravel = Math.max(0, track.clientWidth - handle.offsetWidth);
+        pieceX = Math.max(0, Math.min(maxTravel, value));
+        piece.style.transform = `translateX(${pieceX}px)`;
+        handle.style.left = `${pieceX}px`;
+      }
+
+      function resetInteraction() {
+        dragging = false;
+        pointerId = null;
+        handle.classList.remove('dragging');
+        setPieceX(0);
+      }
+
+      function drawChallenge() {
+        solved = false;
+        gapX = Math.round(random(112, canvas.width - SIZE - 18));
+        gapY = Math.round(random(24, canvas.height - SIZE - 18));
+
+        const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, '#132a46');
+        gradient.addColorStop(0.55, '#1b3b5c');
+        gradient.addColorStop(1, '#251c38');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        for (let i = 0; i < 24; i++) {
+          ctx.globalAlpha = random(0.18, 0.55);
+          ctx.fillStyle = palette[Math.floor(Math.random() * palette.length)];
+          const radius = random(12, 46);
+          ctx.beginPath();
+          ctx.arc(random(0, canvas.width), random(0, canvas.height), radius, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        ctx.globalAlpha = 1;
+        ctx.lineWidth = 1;
+        for (let i = 0; i < 18; i++) {
+          ctx.strokeStyle = `rgba(255,255,255,${random(0.04, 0.16).toFixed(2)})`;
+          ctx.beginPath();
+          ctx.moveTo(random(0, canvas.width), random(0, canvas.height));
+          ctx.lineTo(random(0, canvas.width), random(0, canvas.height));
+          ctx.stroke();
+        }
+
+        ctx.save();
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.35)';
+        ctx.shadowBlur = 12;
+        ctx.fillStyle = HOLE_COLOR;
+        roundedRect(ctx, gapX, gapY, SIZE, SIZE, 13);
+        ctx.fill();
+        ctx.restore();
+
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = 'rgba(255,255,255,0.9)';
+        roundedRect(ctx, gapX, gapY, SIZE, SIZE, 13);
+        ctx.stroke();
+
+        piece.style.top = `${gapY}px`;
+        resetInteraction();
+        setStatus('等待拖动…', 'idle');
+        window.__sliderReady = (window.__sliderReady || 0) + 1;
+      }
+
+      function finishDrag() {
+        if (!dragging) return;
+        dragging = false;
+        handle.classList.remove('dragging');
+        if (pointerId !== null && handle.hasPointerCapture(pointerId)) {
+          handle.releasePointerCapture(pointerId);
+        }
+        pointerId = null;
+
+        if (Math.abs(pieceX - gapX) <= TOLERANCE) {
+          solved = true;
+          setStatus('验证通过', 'success');
+          return;
+        }
+
+        solved = false;
+        setStatus('未对齐，正在重置…', 'fail');
+        window.setTimeout(() => {
+          if (!solved) {
+            resetInteraction();
+            setStatus('请重试', 'idle');
+          }
+        }, 650);
+      }
+
+      handle.addEventListener('pointerdown', event => {
+        if (solved || event.button !== 0) return;
+        dragging = true;
+        pointerId = event.pointerId;
+        pointerStartX = event.clientX;
+        pieceStartX = pieceX;
+        handle.setPointerCapture(event.pointerId);
+        handle.classList.add('dragging');
+        setStatus('拖动中…', 'idle');
+      });
+
+      handle.addEventListener('pointermove', event => {
+        if (!dragging || event.pointerId !== pointerId) return;
+        setPieceX(pieceStartX + event.clientX - pointerStartX);
+      });
+
+      handle.addEventListener('pointerup', event => {
+        if (event.pointerId === pointerId) finishDrag();
+      });
+
+      handle.addEventListener('pointercancel', event => {
+        if (event.pointerId === pointerId) finishDrag();
+      });
+
+      nextButton.addEventListener('click', drawChallenge);
+      drawChallenge();
+    })();
+  </script>
+</body>
+</html>

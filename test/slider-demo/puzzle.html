@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>本地纹理拼图测试</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 18% 8%, #1c365c 0, transparent 36%),
+        radial-gradient(circle at 82% 92%, #3c1e4d 0, transparent 34%),
+        #0b1220;
+      color: #eaf0fa;
+    }
+
+    .card {
+      width: min(420px, calc(100vw - 32px));
+      padding: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 22px;
+      background: rgba(19, 31, 52, 0.95);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      letter-spacing: 0.02em;
+    }
+
+    .hint {
+      margin: 0 0 20px;
+      color: #9db0cc;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .stage {
+      position: relative;
+      width: 360px;
+      height: 180px;
+      margin: 0 auto;
+      max-width: 100%;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      background: #17263d;
+    }
+
+    #scene {
+      display: block;
+      width: 360px;
+      height: 180px;
+    }
+
+    #piece {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 48px;
+      height: 48px;
+      pointer-events: none;
+      filter: drop-shadow(0 9px 9px rgba(0, 0, 0, 0.42));
+      will-change: transform;
+    }
+
+    #pieceTexture {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .track {
+      position: relative;
+      height: 48px;
+      margin-top: 16px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #0b1525;
+      box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.42);
+    }
+
+    .track::before {
+      content: "";
+      position: absolute;
+      inset: 15px 18px;
+      border-radius: 999px;
+      background: repeating-linear-gradient(
+        90deg,
+        rgba(157, 176, 204, 0.12) 0 8px,
+        transparent 8px 16px
+      );
+    }
+
+    #handle {
+      position: absolute;
+      inset: 5px auto 5px 0;
+      width: 72px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.42);
+      border-radius: 999px;
+      background: linear-gradient(180deg, #6f8cff, #4c68e8);
+      color: white;
+      font: inherit;
+      font-size: 12px;
+      font-weight: 650;
+      cursor: grab;
+      touch-action: none;
+      user-select: none;
+      will-change: left;
+    }
+
+    #handle.dragging {
+      cursor: grabbing;
+      filter: brightness(1.08);
+    }
+
+    #handle:focus-visible,
+    button:focus-visible {
+      outline: 3px solid #75e0ff;
+      outline-offset: 3px;
+    }
+
+    .status-row {
+      min-height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    #result {
+      margin: 0;
+      color: #aabbd4;
+      font-size: 14px;
+    }
+
+    #result[data-state="success"] {
+      color: #72e6aa;
+      font-weight: 650;
+    }
+
+    #result[data-state="fail"] {
+      color: #ff8ea8;
+    }
+
+    #newChallenge {
+      flex: none;
+      padding: 8px 13px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 10px;
+      background: #21314d;
+      color: #dce7f8;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    #newChallenge:hover {
+      background: #2a3d5e;
+    }
+
+    .debug {
+      margin: 14px 0 0;
+      color: #7285a2;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    code {
+      color: #b9ccff;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>本地纹理拼图测试</h1>
+    <p class="hint">目标是一个带凸耳和凹口的不规则拼图孔，背景为庭院照片式场景。脚本需要处理拼图边界、噪声、局部遮挡和显示缩放。</p>
+
+    <div id="stage" class="stage">
+      <canvas id="scene" width="480" height="240"></canvas>
+      <div id="piece" aria-hidden="true">
+        <canvas id="pieceTexture" width="72" height="72"></canvas>
+      </div>
+    </div>
+
+    <div id="track" class="track">
+      <button id="handle" type="button" aria-label="拖动滑块">按住拖动</button>
+    </div>
+
+    <div class="status-row">
+      <p id="result" role="status" data-state="idle">等待拖动…</p>
+      <button id="newChallenge" type="button">换一题</button>
+    </div>
+
+    <p class="debug">内部渲染 <code>480×240</code>，拼图块 <code>72×72</code>，显示宽度每轮随机 300–360px；凸耳在右侧、凹口在底部。</p>
+  </main>
+
+  <script>
+    (() => {
+      const canvas = document.querySelector('#scene');
+      const ctx = canvas.getContext('2d', { willReadFrequently: true });
+      const stage = document.querySelector('#stage');
+      const piece = document.querySelector('#piece');
+      const pieceTexture = document.querySelector('#pieceTexture');
+      const pieceCtx = pieceTexture.getContext('2d', { willReadFrequently: true });
+      const track = document.querySelector('#track');
+      const handle = document.querySelector('#handle');
+      const result = document.querySelector('#result');
+      const nextButton = document.querySelector('#newChallenge');
+
+      const SCENE_W = canvas.width;
+      const SCENE_H = canvas.height;
+      const PIECE = pieceTexture.width;
+      const TOLERANCE = 7;
+      const occlusionColors = ['#d7a548', '#c66b4b', '#729b63', '#6a86a5', '#b58a64'];
+
+      let gapX = 0;
+      let gapY = 0;
+      let pieceX = 0;
+      let displayScale = 1;
+      let dragging = false;
+      let solved = false;
+      let pointerStartX = 0;
+      let pieceStartX = 0;
+      let pointerId = null;
+
+      const random = (min, max) => min + Math.random() * (max - min);
+
+      function roundedRect(context, x, y, width, height, radius) {
+        context.beginPath();
+        context.roundRect(x, y, width, height, radius);
+      }
+
+      function jigsawPath(context, x, y, size) {
+        const left = x + 6;
+        const right = x + size - 16;
+        const top = y + 4;
+        const bottom = y + size - 6;
+        context.beginPath();
+        context.moveTo(left, top);
+        context.lineTo(right, top);
+        context.lineTo(right, y + size * 0.34);
+        context.bezierCurveTo(
+          x + size - 2, y + size * 0.30,
+          x + size - 2, y + size * 0.64,
+          right, y + size * 0.62,
+        );
+        context.lineTo(right, bottom);
+        context.lineTo(x + size * 0.56, bottom);
+        context.bezierCurveTo(
+          x + size * 0.56, y + size * 0.73,
+          x + size * 0.32, y + size * 0.73,
+          x + size * 0.32, bottom,
+        );
+        context.lineTo(left, bottom);
+        context.closePath();
+      }
+
+      function setStatus(text, state = 'idle') {
+        result.textContent = text;
+        result.dataset.state = state;
+        document.body.dataset.solved = solved ? '1' : '0';
+      }
+
+      function layoutPiece() {
+        displayScale = canvas.clientWidth / SCENE_W;
+        const size = PIECE * displayScale;
+        piece.style.width = `${size}px`;
+        piece.style.height = `${size}px`;
+        piece.style.top = `${gapY * displayScale}px`;
+      }
+
+      function setPieceX(value) {
+        const maxTravel = Math.max(0, track.clientWidth - handle.offsetWidth);
+        pieceX = Math.max(0, Math.min(maxTravel, value));
+        piece.style.transform = `translateX(${pieceX}px)`;
+        handle.style.left = `${pieceX}px`;
+      }
+
+      function resetInteraction() {
+        dragging = false;
+        pointerId = null;
+        handle.classList.remove('dragging');
+        setPieceX(0);
+      }
+
+      function drawBackground() {
+        const sky = ctx.createLinearGradient(0, 0, 0, SCENE_H);
+        sky.addColorStop(0, '#a8bec5');
+        sky.addColorStop(0.42, '#c2cbbf');
+        sky.addColorStop(0.43, '#71845e');
+        sky.addColorStop(1, '#405638');
+        ctx.fillStyle = sky;
+        ctx.fillRect(0, 0, SCENE_W, SCENE_H);
+
+        const roof = ctx.createLinearGradient(280, 10, 430, 62);
+        roof.addColorStop(0, '#8d4d2c');
+        roof.addColorStop(0.5, '#d39348');
+        roof.addColorStop(1, '#6e3e2a');
+        ctx.fillStyle = roof;
+        ctx.beginPath();
+        ctx.moveTo(246, 42);
+        ctx.bezierCurveTo(320, 2, 425, 4, 510, 38);
+        ctx.lineTo(492, 58);
+        ctx.bezierCurveTo(410, 24, 330, 27, 261, 58);
+        ctx.closePath();
+        ctx.fill();
+
+        ctx.strokeStyle = 'rgba(82, 42, 25, 0.62)';
+        ctx.lineWidth = 2;
+        for (let i = 0; i < 6; i++) {
+          ctx.beginPath();
+          ctx.moveTo(276 + i * 36, 39 + (i % 2) * 3);
+          ctx.quadraticCurveTo(300 + i * 30, 17 + (i % 2) * 2, 340 + i * 27, 35);
+          ctx.stroke();
+        }
+
+        ctx.fillStyle = '#b5a58e';
+        ctx.fillRect(238, 56, 242, 96);
+        ctx.fillStyle = '#8c6d59';
+        ctx.fillRect(252, 55, 15, 107);
+        ctx.fillRect(448, 55, 13, 100);
+        ctx.fillStyle = 'rgba(73, 55, 48, 0.36)';
+        ctx.fillRect(276, 74, 72, 65);
+        ctx.fillRect(381, 74, 72, 65);
+
+        const greens = ['#183d29', '#285536', '#3d7041', '#557f45', '#708f50', '#274a2e'];
+        const clusters = [
+          [38, 70, 72], [112, 47, 54], [174, 80, 64],
+          [462, 82, 74], [397, 40, 52], [310, 78, 44],
+        ];
+        for (const [cx, cy, spread] of clusters) {
+          for (let i = 0; i < 30; i++) {
+            ctx.globalAlpha = random(0.28, 0.72);
+            ctx.fillStyle = greens[Math.floor(Math.random() * greens.length)];
+            const radius = random(10, 28);
+            ctx.beginPath();
+            ctx.arc(
+              cx + random(-spread, spread),
+              cy + random(-spread * 0.5, spread * 0.7),
+              radius,
+              0,
+              Math.PI * 2,
+            );
+            ctx.fill();
+          }
+        }
+        ctx.globalAlpha = 1;
+
+        ctx.strokeStyle = '#4a3528';
+        ctx.lineWidth = 7;
+        for (const [x, y, height] of [[75, 110, 85], [355, 105, 76], [438, 112, 82]]) {
+          ctx.beginPath();
+          ctx.moveTo(x, y);
+          ctx.quadraticCurveTo(x + 7, y + height * 0.52, x - 4, y + height);
+          ctx.stroke();
+        }
+
+        const path = ctx.createLinearGradient(0, 148, 0, SCENE_H);
+        path.addColorStop(0, '#8d9b82');
+        path.addColorStop(1, '#4a5f46');
+        ctx.fillStyle = path;
+        ctx.beginPath();
+        ctx.moveTo(0, 160);
+        ctx.quadraticCurveTo(160, 143, 320, 164);
+        ctx.quadraticCurveTo(414, 176, SCENE_W, 151);
+        ctx.lineTo(SCENE_W, SCENE_H);
+        ctx.lineTo(0, SCENE_H);
+        ctx.closePath();
+        ctx.fill();
+
+        ctx.fillStyle = '#6d8795';
+        roundedRect(ctx, 184, 173, 98, 27, 7);
+        ctx.fill();
+        ctx.fillStyle = '#a8c1ca';
+        roundedRect(ctx, 206, 178, 42, 12, 3);
+        ctx.fill();
+        ctx.fillStyle = '#27343a';
+        ctx.beginPath();
+        ctx.arc(204, 201, 8, 0, Math.PI * 2);
+        ctx.arc(262, 201, 8, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.strokeStyle = 'rgba(219, 230, 232, 0.72)';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.moveTo(350, 142);
+        ctx.lineTo(482, 151);
+        ctx.stroke();
+        for (let x = 356; x < 482; x += 22) {
+          ctx.beginPath();
+          ctx.moveTo(x, 143);
+          ctx.lineTo(x - 3, 179);
+          ctx.stroke();
+        }
+
+        ctx.strokeStyle = 'rgba(37, 70, 39, 0.52)';
+        ctx.lineWidth = 1;
+        for (let i = 0; i < 240; i++) {
+          const x = random(0, SCENE_W);
+          const y = random(158, SCENE_H);
+          ctx.beginPath();
+          ctx.moveTo(x, y);
+          ctx.lineTo(x + random(-3, 3), y - random(3, 11));
+          ctx.stroke();
+        }
+
+        for (let i = 0; i < 520; i++) {
+          ctx.fillStyle = `rgba(255,255,255,${random(0.01, 0.07).toFixed(3)})`;
+          ctx.fillRect(random(0, SCENE_W), random(0, SCENE_H), 1, 1);
+        }
+      }
+
+      function addNoise(rate) {
+        const count = Math.floor(SCENE_W * SCENE_H * rate);
+        for (let i = 0; i < count; i++) {
+          const value = Math.random() < 0.5 ? '255,255,255' : '0,0,0';
+          ctx.fillStyle = `rgba(${value},${random(0.2, 0.72).toFixed(2)})`;
+          ctx.fillRect(
+            Math.floor(random(0, SCENE_W)),
+            Math.floor(random(0, SCENE_H)),
+            1,
+            1,
+          );
+        }
+      }
+
+      function drawChallenge() {
+        solved = false;
+        const displayWidth = Math.round(random(300, 361));
+        const displayHeight = displayWidth * SCENE_H / SCENE_W;
+        stage.style.width = `${displayWidth}px`;
+        stage.style.height = `${displayHeight}px`;
+        canvas.style.width = `${displayWidth}px`;
+        canvas.style.height = `${displayHeight}px`;
+
+        gapX = Math.round(random(132, 374));
+        gapY = Math.round(random(24, SCENE_H - PIECE - 24));
+
+        drawBackground();
+
+        pieceCtx.clearRect(0, 0, PIECE, PIECE);
+        pieceCtx.save();
+        jigsawPath(pieceCtx, 0, 0, PIECE);
+        pieceCtx.clip();
+        pieceCtx.drawImage(
+          canvas,
+          gapX, gapY, PIECE, PIECE,
+          0, 0, PIECE, PIECE,
+        );
+        pieceCtx.restore();
+        pieceCtx.lineWidth = 2;
+        pieceCtx.strokeStyle = 'rgba(239, 249, 250, 0.86)';
+        jigsawPath(pieceCtx, 0.5, 0.5, PIECE - 1);
+        pieceCtx.stroke();
+
+        ctx.save();
+        jigsawPath(ctx, gapX, gapY, PIECE);
+        ctx.clip();
+        ctx.fillStyle = 'rgba(8, 22, 27, 0.28)';
+        ctx.fillRect(gapX, gapY, PIECE, PIECE);
+        ctx.restore();
+
+        ctx.save();
+        ctx.lineWidth = 5;
+        ctx.strokeStyle = 'rgba(94, 214, 232, 0.18)';
+        jigsawPath(ctx, gapX + 0.5, gapY + 0.5, PIECE - 1);
+        ctx.stroke();
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = 'rgba(239, 249, 250, 0.82)';
+        ctx.stroke();
+        ctx.restore();
+
+        const occlusionRadius = random(10, 17);
+        const occlusionX = gapX + random(22, PIECE - 24);
+        const occlusionY = gapY + random(20, PIECE - 24);
+        ctx.save();
+        ctx.globalAlpha = 0.92;
+        ctx.fillStyle = occlusionColors[Math.floor(Math.random() * occlusionColors.length)];
+        ctx.beginPath();
+        ctx.arc(occlusionX, occlusionY, occlusionRadius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = 'rgba(255,255,255,0.82)';
+        ctx.stroke();
+        ctx.restore();
+
+        const noiseRate = random(0.003, 0.01);
+        addNoise(noiseRate);
+
+        layoutPiece();
+        resetInteraction();
+        setStatus('等待拖动…', 'idle');
+        window.__challengeMeta = {
+          displayWidth,
+          displayScale,
+          noiseRate,
+          occlusionRadius,
+        };
+        window.__sliderReady = (window.__sliderReady || 0) + 1;
+      }
+
+      function finishDrag() {
+        if (!dragging) return;
+        dragging = false;
+        handle.classList.remove('dragging');
+        if (pointerId !== null && handle.hasPointerCapture(pointerId)) {
+          handle.releasePointerCapture(pointerId);
+        }
+        pointerId = null;
+
+        if (Math.abs(pieceX - gapX * displayScale) <= TOLERANCE) {
+          solved = true;
+          setStatus('验证通过', 'success');
+          return;
+        }
+
+        solved = false;
+        setStatus('未对齐，正在重置…', 'fail');
+        window.setTimeout(() => {
+          if (!solved) {
+            resetInteraction();
+            setStatus('请重试', 'idle');
+          }
+        }, 650);
+      }
+
+      handle.addEventListener('pointerdown', event => {
+        if (solved || event.button !== 0) return;
+        dragging = true;
+        pointerId = event.pointerId;
+        pointerStartX = event.clientX;
+        pieceStartX = pieceX;
+        handle.setPointerCapture(event.pointerId);
+        handle.classList.add('dragging');
+        setStatus('拖动中…', 'idle');
+      });
+
+      handle.addEventListener('pointermove', event => {
+        if (!dragging || event.pointerId !== pointerId) return;
+        setPieceX(pieceStartX + event.clientX - pointerStartX);
+      });
+
+      handle.addEventListener('pointerup', event => {
+        if (event.pointerId === pointerId) finishDrag();
+      });
+
+      handle.addEventListener('pointercancel', event => {
+        if (event.pointerId === pointerId) finishDrag();
+      });
+
+      nextButton.addEventListener('click', drawChallenge);
+      drawChallenge();
+    })();
+  </script>
+</body>
+</html>

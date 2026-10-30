@@ -1,0 +1,3992 @@
+[
+ {
+  "id": "297398",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmaa.2022.126989",
+  "title": "Moderate deviation probabilities for empirical distribution of the branching random walk",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022247X22010034"
+ },
+ {
+  "id": "297390",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmaa.2023.127926",
+  "title": "Non-local diffusion problems with Neumann type boundary values",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022247X23009290"
+ },
+ {
+  "id": "297388",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2025.117125",
+  "title": "Numerical analysis of multi-patch discontinuous Galerkin isogeometric method for full-potential electronic structure calculations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042725006399"
+ },
+ {
+  "id": "297383",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2024.11.039",
+  "title": "On a sharp interface limit for non-local Cahn-Hilliard-Navier-Stokes system",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S002203962400768X",
+  "md5": "c3a41ef92d61376d53191268a4e9ae1d",
+  "pid": "1-s2.0-S002203962400768X-main.pdf"
+ },
+ {
+  "id": "297382",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bulsci.2025.103692",
+  "title": "On compactness of commutators of the Christ-Journe type operators",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0007449725001186",
+  "md5": "48b58da6197c9a48be2d48b027e18abb",
+  "pid": "1-s2.0-S0007449725001186-main.pdf"
+ },
+ {
+  "id": "297381",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcta.2025.106127",
+  "title": "On r-cross t-intersecting families for vector spaces with large product of sizes",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0097316525001220",
+  "md5": "c7d32adb55498a3f47150fbd37bcd212",
+  "pid": "1-s2.0-S0097316525001220-main.pdf"
+ },
+ {
+  "id": "297376",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.na.2025.113999",
+  "title": "On the non-degeneracy and existence of sign-changing solutions to elliptic problem on the Heisenberg group",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0362546X25002512",
+  "md5": "0fdeade8bfdd3aa3a222b940b9635488",
+  "pid": "1-s2.0-S0362546X25002512-main.pdf"
+ },
+ {
+  "id": "297375",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.difgeo.2023.102103",
+  "title": "On the prescribed fractional Q-curvatures problem on Sn under pinching conditions",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0926224523001298",
+  "md5": "3a7de43811d1e8347af03a4532b81d5b",
+  "pid": "1-s2.0-S0926224523001298-main.pdf"
+ },
+ {
+  "id": "297374",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfa.2024.110787",
+  "title": "On the range of a class of complex Monge-Ampere operators on compact Hermitian manifolds",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022123624004750",
+  "md5": "d5a4e757c70b2a8d172f74a48163c43c",
+  "pid": "1-s2.0-S0022123624004750-main.pdf"
+ },
+ {
+  "id": "297373",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.laa.2025.12.012",
+  "title": "On the rational generating functions of Toeplitz matrices",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0024379525005002",
+  "md5": "cdd145ccd773b05717b1ca46acc22b81",
+  "pid": "1-s2.0-S0024379525005002-main.pdf"
+ },
+ {
+  "id": "297365",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ejc.2025.104221",
+  "title": "Partial-dual genus polynomial of graphs",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0195669825001106",
+  "md5": "6d6197ca87de133d80a37f8debf498f3",
+  "pid": "1-s2.0-S0195669825001106-main.pdf"
+ },
+ {
+  "id": "297363",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apnum.2025.11.008",
+  "title": "Positivity preserving and mass conservative projection methods for the Patlak-Keller-Segel equation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0168927425002223"
+ },
+ {
+  "id": "297344",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jalgebra.2023.10.014",
+  "title": "SL2 representations and relative property (T)",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021869323005306",
+  "md5": "b27103cd43d7275af50d88ab2741eec3",
+  "pid": "1-s2.0-S0021869323005306-main.pdf"
+ },
+ {
+  "id": "297338",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2024.116163",
+  "title": "Spectral approximation and error analysis for the transmission eigenvalue problem with an isotropic inhomogeneous medium",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042724004126",
+  "md5": "3321f882113cdf7a4cbdd80d4c2b219a",
+  "pid": "1-s2.0-S0377042724004126-main.pdf"
+ },
+ {
+  "id": "297337",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmaa.2023.127577",
+  "title": "Speed of convergence to the Perron-Frobenius stationary distribution",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022247X23005802",
+  "md5": "5748916d9460b4046a00a8a9cbd80920",
+  "pid": "1-s2.0-S0022247X23005802-main.pdf"
+ },
+ {
+  "id": "297336",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aml.2023.108909",
+  "title": "Spreading speeds of a nonlocal diffusion model with free boundaries in the time almost periodic media",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0893965923003415",
+  "md5": "741657a0f1fbfb9949905ebb36ab01ee",
+  "pid": "1-s2.0-S0893965923003415-main.pdf"
+ },
+ {
+  "id": "297334",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aim.2024.110019",
+  "title": "Stability scattering diagrams and quiver coverings",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0001870824005358",
+  "md5": "135840869f5294753e788f9d8a096ac3",
+  "pid": "1-s2.0-S0001870824005358-main.pdf"
+ },
+ {
+  "id": "297328",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.116504",
+  "title": "Targeted attack in spatial networks with minimal collateral damage",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S096007792500517X",
+  "md5": "a445a3032923d61630aca84034832797",
+  "pid": "1-s2.0-S096007792500517X-main.pdf"
+ },
+ {
+  "id": "297319",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpaa.2025.107954",
+  "title": "The associated graded algebras of Brauer graph algebras II: Infinite representation type",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022404925000933",
+  "md5": "93902dbfb3ae96609eaf5dd9e8b8d0f7",
+  "pid": "1-s2.0-S0022404925000933-main.pdf"
+ },
+ {
+  "id": "297317",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.disc.2025.114854",
+  "title": "The characterization of the lower bound on the dissociation number of trees",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0012365X25004625",
+  "md5": "715ee102a1cd2fe9c27ed9ad5e18ff6a",
+  "pid": "1-s2.0-S0012365X25004625-main.pdf"
+ },
+ {
+  "id": "297316",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jalgebra.2024.12.023",
+  "title": "The classification of two-distance transitive dihedrants ☆",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021869324006963",
+  "md5": "b171cc91503ee4737ead31648ef6a6e6",
+  "pid": "1-s2.0-S0021869324006963-main.pdf"
+ },
+ {
+  "id": "297315",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2024.115911",
+  "title": "The two-point Padé approximation problem and its Hankel vector",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042724001614",
+  "md5": "abb52faf7393e113457c13e818e4af80",
+  "pid": "1-s2.0-S0377042724001614-main.pdf"
+ },
+ {
+  "id": "297313",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.nonrwa.2025.104327",
+  "title": "Traveling wave in a ratio-dependent Holling-Tanner system with nonlocal diffusion and strong Allee effect",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1468121825000136",
+  "md5": "39f9d32c49e3c422d5880a36ced1800b",
+  "pid": "1-s2.0-S1468121825000136-main.pdf"
+ },
+ {
+  "id": "297295",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2024.116097",
+  "title": "A locking-free numerical method for the quasi-static linear thermo-poroelasticity model",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042724003467",
+  "md5": "b66d66e22999f5933a20a1b2a5281f6a",
+  "pid": "1-s2.0-S0377042724003467-main.pdf"
+ },
+ {
+  "id": "297293",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cagd.2024.102402",
+  "title": "A novel heterogeneous deformable surface model based on elasticity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167839624001365",
+  "md5": "2a9cba4233a4486ca1c661e30bb3d91c",
+  "pid": "1-s2.0-S0167839624001365-main.pdf"
+ },
+ {
+  "id": "297291",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aim.2025.110537",
+  "title": "A sharp localized weighted inequality related to Gagliardo and Sobolev seminorms and its applications",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0001870825004359",
+  "md5": "72981477b21b19638cb9ac80b59a0e61",
+  "pid": "1-s2.0-S0001870825004359-main.pdf"
+ },
+ {
+  "id": "297286",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.physd.2024.134319",
+  "title": "An eigenvalue problem for self-similar patterns in Hele-Shaw flows",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167278924002707",
+  "md5": "538fa25cdf2d5f8578e6f785ffa92c54",
+  "pid": "1-s2.0-S0167278924002707-main.pdf"
+ },
+ {
+  "id": "297284",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2025.113652",
+  "title": "Asymptotic propagation of stochastic Fisher-KPP equation with Markovian switching",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039625006795",
+  "md5": "bd69d76cd4defb7cd65ce48e6d3b2b1d",
+  "pid": "1-s2.0-S0022039625006795-main.pdf"
+ },
+ {
+  "id": "297283",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aim.2025.110645",
+  "title": "Austere matrices, austere submanifolds and Dupin hypersurfaces",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0001870825005432",
+  "md5": "9471daf93ecb67dfb77cf0dddcd112cc",
+  "pid": "1-s2.0-S0001870825005432-main.pdf"
+ },
+ {
+  "id": "297282",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aml.2024.109311",
+  "title": "Averaging principle for reflected stochastic evolution equations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0893965924003318",
+  "md5": "3f7ca349e7ca1a8c875a4160ee9d2b5a",
+  "pid": "1-s2.0-S0893965924003318-main.pdf"
+ },
+ {
+  "id": "297276",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2024.115519",
+  "title": "Chimera states and eigen microstates of nonidentical power-law coupled oscillators with heterogeneous phase lag",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077924010713",
+  "md5": "0a4d05da689e134e972d14392a7b5f57",
+  "pid": "1-s2.0-S0960077924010713-main.pdf"
+ },
+ {
+  "id": "297266",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2024.115093",
+  "title": "Entanglement dynamics in a mechanically coupled double-cavity enhanced by two-level atomic ensembles",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077924006453",
+  "md5": "89d7f112a280c42111e948928b789be7",
+  "pid": "1-s2.0-S0960077924006453-main.pdf"
+ },
+ {
+  "id": "297265",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.amc.2025.129562",
+  "title": "Environmental-feedback-driven time-varying reputation update solve social dilemmas",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0096300325002887",
+  "md5": "2a58e01ecb0188c628c0c6c13f9d03d1",
+  "pid": "1-s2.0-S0096300325002887-main.pdf"
+ },
+ {
+  "id": "297264",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2024.116116",
+  "title": "Error estimates of the direct discontinuous Galerkin method for two-dimensional nonlinear convection-diffusion equations: Superconvergence analysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042724003650",
+  "md5": "806b5fc094041d93fb8b7d1db3eaf9ed",
+  "pid": "1-s2.0-S0377042724003650-main.pdf"
+ },
+ {
+  "id": "297263",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ejc.2024.103926",
+  "title": "Exact values and improved bounds on k-neighborly families of boxes",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0195669824000118",
+  "md5": "f2dd1a97e62ea7d8e39c1766214e762c",
+  "pid": "1-s2.0-S0195669824000118-main.pdf"
+ },
+ {
+  "id": "297257",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jalgebra.2025.12.011",
+  "title": "Fractional Brauer configuration algebras I: Definitions and examples",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021869325007045",
+  "md5": "f7d39c202c66959c62ac8507abff1e40",
+  "pid": "1-s2.0-S0021869325007045-main.pdf"
+ },
+ {
+  "id": "297256",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.116004",
+  "title": "Fusing structural and temporal information incitation networks for identifying milestone works",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077925000177",
+  "md5": "2ec716ba08b73fb9575538e40aaad098",
+  "pid": "1-s2.0-S0960077925000177-main.pdf"
+ },
+ {
+  "id": "297251",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cnsns.2025.109096",
+  "title": "Homogenization principle and numerical analysis for fractional stochastic differential equations with different scales",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1007570425005076",
+  "md5": "f52d673a2b0439cd39b6ac221a10068a",
+  "pid": "1-s2.0-S1007570425005076-main.pdf"
+ },
+ {
+  "id": "297250",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.117151",
+  "title": "Hopf bifurcation in an age-structured predator-prey system with Allee effect and prey refuge",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077925011646",
+  "md5": "ab187b27282f7f7782985c349403707a",
+  "pid": "1-s2.0-S0960077925011646-main.pdf"
+ },
+ {
+  "id": "297243",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2024.01.001",
+  "title": "Lazer-McKenna Conjecture for fractional problems involving critical growth",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039624000019",
+  "md5": "ab701e84cedb1e34952f8571f5dd0edf",
+  "pid": "1-s2.0-S0022039624000019-main.pdf"
+ },
+ {
+  "id": "297237",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apal.2025.103553",
+  "title": "Modal logics over lattices ☆",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0168007225000028",
+  "md5": "40ebb49f94d69ff6aa99b398909e5563",
+  "pid": "1-s2.0-S0168007225000028-main.pdf"
+ },
+ {
+  "id": "297231",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmaa.2023.127150",
+  "title": "New synchronized solutions for linearly coupled Schrodinger systems",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022247X23001531",
+  "md5": "38795d4bdb40285085ef97d86725f54e",
+  "pid": "1-s2.0-S0022247X23001531-main.pdf"
+ },
+ {
+  "id": "297227",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2023.115560",
+  "title": "On the quasi-stability criteria of monic matrix polynomials",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042723005046",
+  "md5": "1de1d535d53fe8d0bbf5ba6d94fd8a11",
+  "pid": "1-s2.0-S0377042723005046-main.pdf"
+ },
+ {
+  "id": "297226",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmaa.2024.128142",
+  "title": "Optimal Hermite-Fejér interpolation of algebraic polynomials and the best one-sided approximation on the interval [-1,1]",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022247X24000635",
+  "md5": "8f9e6dfacc642e76605e6199406ef2a3",
+  "pid": "1-s2.0-S0022247X24000635-main.pdf"
+ },
+ {
+  "id": "297216",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpaa.2023.107498",
+  "title": "Rigidity degrees of indecomposable modules over representation-finite self-injective algebras",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022404923001809",
+  "md5": "6db26dfc46023acafd2d5805487f53e8",
+  "pid": "1-s2.0-S0022404923001809-main.pdf"
+ },
+ {
+  "id": "297211",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcta.2025.106125",
+  "title": "Semicomplete multipartite weakly distance-regular digraphs",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0097316525001207",
+  "md5": "ce4adf80fff46c4d38304bbad21dc493",
+  "pid": "1-s2.0-S0097316525001207-main.pdf"
+ },
+ {
+  "id": "297209",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfa.2022.109821",
+  "title": "Stability of Edelen-Wang?s Bernstein type theorem for the minimal surface equation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022123622004414",
+  "md5": "1bd641e40e7d8b25d1960e77be8ee321",
+  "pid": "1-s2.0-S0022123622004414-main.pdf"
+ },
+ {
+  "id": "297193",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2025.113799",
+  "title": "Theoretical analysis of canard dynamics in a nonlinear neuron model with reset",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039625008265",
+  "md5": "5883406d0de1c6180800c821c15b82be",
+  "pid": "1-s2.0-S0022039625008265-main.pdf"
+ },
+ {
+  "id": "297191",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.physd.2024.134431",
+  "title": "Understanding the nonlinear behavior of Rayleigh-Taylor instability with a vertical electric field for perfect dielectric fluids",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167278924003816",
+  "md5": "e52c1734aff3642106be3e34ea84893f",
+  "pid": "1-s2.0-S0167278924003816-main.pdf"
+ },
+ {
+  "id": "297188",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2025.113690",
+  "title": "Vanishing diffusivity limit for the Boussinesq equations with Dirichlet boundary conditions",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S002203962500717X",
+  "md5": "7e04f84d98c37444613d05aef5e7f399",
+  "pid": "1-s2.0-S002203962500717X-main.pdf"
+ },
+ {
+  "id": "297186",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2025.113673",
+  "title": "Weighted local Hardy spaces associated to elliptic operators with coefficients having minimal smoothness",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039625007004",
+  "md5": "7386fd6f35858b105ba18aa1f940f5f5",
+  "pid": "1-s2.0-S0022039625007004-main.pdf"
+ },
+ {
+  "id": "297180",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2024.116463",
+  "title": "A positivity-preserving, second-order energy stable and convergent numerical scheme for a ternary system of macromolecular microsphere composite hydrogels",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042724007118",
+  "md5": "ec733ab579f9ea91715e222584c1d4ad",
+  "pid": "1-s2.0-S0377042724007118-main.pdf"
+ },
+ {
+  "id": "297179",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.camwa.2024.01.006",
+  "title": "A stable and high-order numerical scheme with discrete DtN-type artificial boundary conditions for a 2D peridynamic diffusion model",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0898122124000063",
+  "md5": "3107e359de81dad272f2958cade122ef",
+  "pid": "1-s2.0-S0898122124000063-main.pdf"
+ },
+ {
+  "id": "297176",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2025.113384",
+  "title": "Ancient solutions to the parabolic Monge-Ampère equations with new asymptotic behavior at infinity ☆",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039625004115",
+  "md5": "7b36cd85bce470063de5a6cf759cf33a",
+  "pid": "1-s2.0-S0022039625004115-main.pdf"
+ },
+ {
+  "id": "297166",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.117399",
+  "title": "Enhancing robustness of higher-order networks with community structures through strategic edge addition",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077925014122",
+  "md5": "baa58807c5ceeb0c68f0ef482ba1d9ed",
+  "pid": "1-s2.0-S0960077925014122-main.pdf"
+ },
+ {
+  "id": "297163",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cagd.2025.102453",
+  "title": "Feature-preserving point cloud filtering via mixture family manifold",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167839625000421",
+  "md5": "49aa42ed9d21d78ae8eb2c17cd464aaf",
+  "pid": "1-s2.0-S0167839625000421-main.pdf"
+ },
+ {
+  "id": "297161",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2024.09.056",
+  "title": "Global existence of strong solutions to the compressible magnetohydrodynamic equations with large initial data and vacuum in R<SUP>2</SUP>",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039624006417",
+  "md5": "64af0d2a659b9e51b11459110aecc23e",
+  "pid": "1-s2.0-S0022039624006417-main.pdf"
+ },
+ {
+  "id": "297160",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.nonrwa.2023.104007",
+  "title": "Global existence, blow-up and dynamical behavior in a nonlocal parabolic problem with variational structure",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1468121823001773",
+  "md5": "1bfa7aeed7ebc899b46e45c126f40a4b",
+  "pid": "1-s2.0-S1468121823001773-main.pdf"
+ },
+ {
+  "id": "297136",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aml.2025.109474",
+  "title": "Positive recurrence of a stochastic heroin epidemic model with standard incidence and telegraph noise",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0893965925000217",
+  "md5": "e3938185af2c30a49e13a141b4e3520c",
+  "pid": "1-s2.0-S0893965925000217-main.pdf"
+ },
+ {
+  "id": "297135",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aim.2025.110390",
+  "title": "Regularity of solutions to the Dirichlet problem for fast diffusion equations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0001870825002889",
+  "md5": "b424779b4f64129ef90454f1cbd28a1f",
+  "pid": "1-s2.0-S0001870825002889-main.pdf"
+ },
+ {
+  "id": "297134",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jeconom.2023.105650",
+  "title": "Reprint: Statistical inference for linear mediation models with high-dimensional mediators and application to studying stock reaction to COVID-19 pandemic",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0304407623003664",
+  "md5": "36fb91554f20d5fb181c352f9b72a8c8",
+  "pid": "1-s2.0-S0304407623003664-main.pdf"
+ },
+ {
+  "id": "297133",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.117214",
+  "title": "Research on the motor development of children aged 3-5 based on nonlinear dynamics theory",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077925012275",
+  "md5": "86f8f3e42bc08c3820fb80bb426aca40",
+  "pid": "1-s2.0-S0960077925012275-main.pdf"
+ },
+ {
+  "id": "297126",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmateco.2024.102942",
+  "title": "Stability and mean growth rate of stochastic Solow model driven by jump-diffusion process",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0304406824000041",
+  "md5": "5d8b8b5e8d592e45df1978c00476d54e",
+  "pid": "1-s2.0-S0304406824000041-main.pdf"
+ },
+ {
+  "id": "297121",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.physd.2025.134713",
+  "title": "The nonlinear steepest descent approach to the long-time asymptotics of the three-coupled Lakshmanan-Porsezian-Daniel model",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167278925001903",
+  "md5": "0fe9b96a47024a0faf23d799917b2c2e",
+  "pid": "1-s2.0-S0167278925001903-main.pdf"
+ },
+ {
+  "id": "297120",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.fss.2024.109053",
+  "title": "The normality of L-coarse spaces",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0165011424001994",
+  "md5": "d04d1671dec272acd555f8b89e977741",
+  "pid": "1-s2.0-S0165011424001994-main.pdf"
+ },
+ {
+  "id": "297108",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.dam.2024.01.031",
+  "title": "A note on the conditional fault-tolerant strong Menger edge connectivity of regular graphs",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0166218X24000416",
+  "md5": "7daa8246f6320ca24981596ebee476aa",
+  "pid": "1-s2.0-S0166218X24000416-main.pdf"
+ },
+ {
+  "id": "297100",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.na.2024.113742",
+  "title": "Composition of rough singular integral operators on rearrangement invariant Banach type spaces",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0362546X2400261X",
+  "md5": "e2abf9c3fd7442a8f52219ee278ac7ce",
+  "pid": "1-s2.0-S0362546X2400261X-main.pdf"
+ },
+ {
+  "id": "297097",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmateco.2024.102990",
+  "title": "Dynamic games on arbitrary networks with two types of players",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0304406824000521",
+  "md5": "8bd98aeea9ff742a3b0ddff8aca853eb",
+  "pid": "1-s2.0-S0304406824000521-main.pdf"
+ },
+ {
+  "id": "297095",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.amc.2023.127924",
+  "title": "Epidemic thresholds identification of susceptible-infected-recovered model based on the Eigen Microstate",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0096300323000930",
+  "md5": "718ae149e1667638da786804d2851706",
+  "pid": "1-s2.0-S0096300323000930-main.pdf"
+ },
+ {
+  "id": "297093",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aml.2023.108919",
+  "title": "Exact multi-soliton solutions of the KdV equation with a source: Riemann-Hilbert formulation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0893965923003518",
+  "md5": "c22c192ee74c5af494df1c7f260eb9f4",
+  "pid": "1-s2.0-S0893965923003518-main.pdf"
+ },
+ {
+  "id": "297086",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.dam.2023.03.023",
+  "title": "Graphic lattices made by graph felicitous-type labelings and colorings of topological coding",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0166218X23001063",
+  "md5": "22c556ce0ee6598bc33266b7fccd7957",
+  "pid": "1-s2.0-S0166218X23001063-main.pdf"
+ },
+ {
+  "id": "297079",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2023.115526",
+  "title": "Minimum energy representative points",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042723004703",
+  "md5": "75e2a42f57f956eecace889e760fa422",
+  "pid": "1-s2.0-S0377042723004703-main.pdf"
+ },
+ {
+  "id": "297069",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.nonrwa.2024.104303",
+  "title": "Sustained oscillations in an age-structured predator-prey model incorporating time delay",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1468121824002426",
+  "md5": "0946abd9e911d24184dad812b4454195",
+  "pid": "1-s2.0-S1468121824002426-main.pdf"
+ },
+ {
+  "id": "297063",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmaa.2024.128178",
+  "title": "The number of limit cycles of a kind of piecewise quadratic systems with switching curve y = x<SUP>m</SUP>",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022247X24000994",
+  "md5": "8a3b17030a3da52807b4be92a44e64f9",
+  "pid": "1-s2.0-S0022247X24000994-main.pdf"
+ },
+ {
+  "id": "297056",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.physd.2025.134573",
+  "title": "Whitham modulation theory for the discontinuous initial-value problem of the generalized Kaup-Boussinesq equation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167278925000521",
+  "md5": "69db541ed2f44eefa2ea85edb0ba8593",
+  "pid": "1-s2.0-S0167278925000521-main.pdf"
+ },
+ {
+  "id": "297052",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.116124",
+  "title": "Bimodal distribution of path multiplicity in random networks",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077925001377",
+  "md5": "2ad36278bf8d106643afb7142d1fc5b7",
+  "pid": "1-s2.0-S0960077925001377-main.pdf"
+ },
+ {
+  "id": "297048",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.amc.2024.128589",
+  "title": "Cooperation and control in asymmetric repeated games",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0096300324000614",
+  "md5": "00b6ff92819c06323e9e57c571789eb6",
+  "pid": "1-s2.0-S0096300324000614-main.pdf"
+ },
+ {
+  "id": "297045",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2023.113712",
+  "title": "Dynamics-based reconstruction of the multilayer structure from an aggregated network",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077923006136",
+  "md5": "2797497c267c505e01b9a02780f168fa",
+  "pid": "1-s2.0-S0960077923006136-main.pdf"
+ },
+ {
+  "id": "297041",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apnum.2024.09.027",
+  "title": "Error estimates of time discretizations for a Cahn-Hilliard phase-field model for the two-phase magnetohydrodynamic flows",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0168927424002642",
+  "md5": "b1b7e01b42b803eafaeff9caab8391ad",
+  "pid": "1-s2.0-S0168927424002642-main.pdf"
+ },
+ {
+  "id": "297039",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aml.2023.108939",
+  "title": "Geometric ergodicity and ultimate boundedness of a stochastic chemostat model with general nutrient uptake function",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0893965923003713",
+  "md5": "958c814e37943926fc65b5c4fc7bd2f3",
+  "pid": "1-s2.0-S0893965923003713-main.pdf"
+ },
+ {
+  "id": "297038",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2024.114579",
+  "title": "Identifying spiral wave tips with reservoir computing",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077924001309",
+  "md5": "ae5fe3c2bc98afd5b1699fe3886cf8c5",
+  "pid": "1-s2.0-S0960077924001309-main.pdf"
+ },
+ {
+  "id": "297033",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aml.2023.108731",
+  "title": "Normalized solutions and bifurcation for fractional Schrodinger equation with linear potential",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0893965923001635",
+  "md5": "0942131fe16fa8e67817666fd4ca250f",
+  "pid": "1-s2.0-S0893965923001635-main.pdf"
+ },
+ {
+  "id": "297022",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.nonrwa.2024.104246",
+  "title": "The Poincare bifurcation by perturbing a class of cubic Hamiltonian systems",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1468121824001858",
+  "md5": "44d786dcd8970890eecb57e513abecd4",
+  "pid": "1-s2.0-S1468121824001858-main.pdf"
+ },
+ {
+  "id": "297018",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.amc.2023.128479",
+  "title": "Two-facility-location games with mixed types of agents",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0096300323006483",
+  "md5": "8d6dc2e8e0bf47ce2494c73eb3f0f8b1",
+  "pid": "1-s2.0-S0096300323006483-main.pdf"
+ },
+ {
+  "id": "297016",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.physd.2024.134301",
+  "title": "Zero dissipation limit of the anisotropic Boussinesq equations with Navier-slip and Neumann boundary conditions",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167278924002525",
+  "md5": "1edc1114bee00a08c88558e6af470e09",
+  "pid": "1-s2.0-S0167278924002525-main.pdf"
+ },
+ {
+  "id": "297013",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2025.116789",
+  "title": "A uniquely solvable and positivity-preserving finite difference scheme for the Flory-Huggins-Cahn-Hilliard equation with dynamical boundary condition",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042725003036",
+  "md5": "56c997ca32a00bc464a28a30d60523c4",
+  "pid": "1-s2.0-S0377042725003036-main.pdf"
+ },
+ {
+  "id": "297012",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.fss.2025.109281",
+  "title": "Algebraic structure of the Gaussian-PDMF space and applications on fuzzy equations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S016501142500020X",
+  "md5": "854832af493ad85904f94ff16fd40cc1",
+  "pid": "1-s2.0-S016501142500020X-main.pdf"
+ },
+ {
+  "id": "297005",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfa.2023.110198",
+  "title": "Characterizations of pointwise multipliers of Besov spaces in endpoint cases with an application to the duality principle",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022123623003555",
+  "md5": "119b3cca2d9efad1f11a66e65de43ab1",
+  "pid": "1-s2.0-S0022123623003555-main.pdf"
+ },
+ {
+  "id": "297002",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.amc.2025.129381",
+  "title": "Experience-driven learning and interactive rules under link weight adjustment promote cooperation in spatial prisoner's dilemma game",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0096300325001080",
+  "md5": "585a42bfca929ddcdab27883adab9743",
+  "pid": "1-s2.0-S0096300325001080-main.pdf"
+ },
+ {
+  "id": "297000",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.exmath.2024.125574",
+  "title": "Geometric characterization of Ahlfors regular spaces in terms of dyadic cubes related to wavelets with its applications to equivalences of Lipschitz spaces",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0723086924000410",
+  "md5": "9f229c309c17cd7899ee5bb4d901a396",
+  "pid": "1-s2.0-S0723086924000410-main.pdf"
+ },
+ {
+  "id": "296994",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2024.115893",
+  "title": "Multilayer network framework and metrics for table tennis analysis: Integrating network science, entropy, and machine learning",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077924014450",
+  "md5": "12197b996b935a98d25281472bb50c3d",
+  "pid": "1-s2.0-S0960077924014450-main.pdf"
+ },
+ {
+  "id": "296989",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.amc.2024.129220",
+  "title": "Past-performance-driven strategy updating promote cooperation in the spatial prisoner's dilemma game",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0096300324006817",
+  "md5": "3d566b0c97c1bfcd3d3cb0a167f3fff1",
+  "pid": "1-s2.0-S0096300324006817-main.pdf"
+ },
+ {
+  "id": "296984",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfranklin.2022.10.015",
+  "title": "Stabilization of switched systems with unstable modes via mode-partition-dependent ADT",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0016003222007396",
+  "md5": "534e15bafe5092951da4933eb171f40d",
+  "pid": "1-s2.0-S0016003222007396-main.pdf"
+ },
+ {
+  "id": "296979",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2023.113956",
+  "title": "Ultimate boundedness of a stochastic chemostat model with periodic nutrient input and discrete delay",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077923008573",
+  "md5": "4b6b7c404bc863e811977c1aee51653e",
+  "pid": "1-s2.0-S0960077923008573-main.pdf"
+ },
+ {
+  "id": "296977",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfa.2024.110654",
+  "title": "Wavelet and Fourier analytic characterizations of pointwise multipliers of Besov spaces B<SUP>s</SUP>p,p (R<SUP>n</SUP>) with 0 &lt; p ≤ 1 ☆",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022123624003422",
+  "md5": "ae5d838a01a88bd82da5efd013bbd9f3",
+  "pid": "1-s2.0-S0022123624003422-main.pdf"
+ },
+ {
+  "id": "296975",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.116488",
+  "title": "A hybrid approach to network disintegration: Integrating graph convolutional network and genetic algorithm",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077925005016",
+  "md5": "665c323d6993d8bd4f2ee46841740900",
+  "pid": "1-s2.0-S0960077925005016-main.pdf"
+ },
+ {
+  "id": "296973",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2024.115784",
+  "title": "A positivity-preserving, linear, energy stable and convergent numerical scheme for the Poisson-Nernst-Planck (PNP) system",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042724000335",
+  "md5": "c3cab5c6c00edcc5c988db125c85038a",
+  "pid": "1-s2.0-S0377042724000335-main.pdf"
+ },
+ {
+  "id": "296967",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfa.2024.110313",
+  "title": "Estimates for stress concentration between two adjacent rigid inclusions in Stokes flow",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022123624000016",
+  "md5": "6639a9be11110eb643f6df111cbe208c",
+  "pid": "1-s2.0-S0022123624000016-main.pdf"
+ },
+ {
+  "id": "296966",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aim.2024.109957",
+  "title": "Generalized Frank characterizations of Muckenhoupt weights and homogeneous ball Banach Sobolev spaces",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0001870824004729",
+  "md5": "1988d3da3724e76f0f338a934063f6a6",
+  "pid": "1-s2.0-S0001870824004729-main.pdf"
+ },
+ {
+  "id": "296959",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2025.116143",
+  "title": "Social contagion with emotional group interactions",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077925001560",
+  "md5": "7d6f594a8c1ef4ddf0f37644da354e48",
+  "pid": "1-s2.0-S0960077925001560-main.pdf"
+ },
+ {
+  "id": "296946",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2025.113952",
+  "title": "Long-time asymptotics of the defocusing mKdV equation with step initial data",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039625009799",
+  "md5": "3c11620a1697d65204259dbee9b08700",
+  "pid": "1-s2.0-S0022039625009799-main.pdf"
+ },
+ {
+  "id": "296945",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aim.2025.110438",
+  "title": "Optimal asymptotic lower bound for stability of fractional Sobolev inequality and the global stability of log-Sobolev inequality on the sphere",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0001870825003366",
+  "md5": "860bb141313f8d55bc6954c364887ab0",
+  "pid": "1-s2.0-S0001870825003366-main.pdf"
+ },
+ {
+  "id": "296943",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2024.115136",
+  "title": "PGNM: Using Physics-Informed Gated Recurrent Units Network Method to capture the dynamic data feature propagation process of PDEs",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S096007792400688X",
+  "md5": "305ddab20f5f0a2d8c276bfd3fad7426",
+  "pid": "1-s2.0-S096007792400688X-main.pdf"
+ },
+ {
+  "id": "296942",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apnum.2023.05.004",
+  "title": "Stability and convergence analysis of the exponential time differencing scheme for a Cahn-Hilliard binary fluid-surfactant model",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0168927423001241",
+  "md5": "16884bce971f1ba5d50fc611f532959a",
+  "pid": "1-s2.0-S0168927423001241-main.pdf"
+ },
+ {
+  "id": "296940",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2024.11.007",
+  "title": "Up to the first two order Melnikov analysis for the exact cyclicity of planar piecewise linear vector fields with nonlinear switching curve",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039624007228",
+  "md5": "7ded42b8f8d89e5ba2676f1bb68df52f",
+  "pid": "1-s2.0-S0022039624007228-main.pdf"
+ },
+ {
+  "id": "296939",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2024.116161",
+  "title": "A class of efficient high-order time-stepping methods for the anisotropic phase-field dendritic crystal growth model",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042724004102",
+  "md5": "ab7e23e76942efc4fa417f00a52eb9b3",
+  "pid": "1-s2.0-S0377042724004102-main.pdf"
+ },
+ {
+  "id": "296938",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmaa.2023.127710",
+  "title": "Asymptotic profiles of a nonlocal dispersal SIS epidemic model with Neumann boundary condition",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022247X23007138",
+  "md5": "8eb273e9139b6d37348d71f9954d5ec9",
+  "pid": "1-s2.0-S0022247X23007138-main.pdf"
+ },
+ {
+  "id": "296933",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2023.113452",
+  "title": "Emergence of cooperation in a population with bimodal response behaviors",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077923003533",
+  "md5": "b0befbe7dd0831b2751af791f2d7f91f",
+  "pid": "1-s2.0-S0960077923003533-main.pdf"
+ },
+ {
+  "id": "296927",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.na.2023.113441",
+  "title": "Entire solutions to the parabolic Monge-Ampere equation with unbounded nonlinear growth in time",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0362546X2300233X",
+  "md5": "6dc9e861cee0a7a343b8d34b49856f06",
+  "pid": "1-s2.0-S0362546X2300233X-main.pdf"
+ },
+ {
+  "id": "296919",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2023.114158",
+  "title": "Trend recurrence analysis and time series classification via trend fuzzy granular recurrence plot method",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077923010603",
+  "md5": "ad3f4bb49ec6d32752aa2cd8aa65dd93",
+  "pid": "1-s2.0-S0960077923010603-main.pdf"
+ },
+ {
+  "id": "296916",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.physd.2025.134538",
+  "title": "High-order optical rogue waves in two coherently coupled nonlinear Schrödinger equations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S016727892500017X",
+  "md5": "2c59cbed1ccf51a076081cced27cac25",
+  "pid": "1-s2.0-S016727892500017X-main.pdf"
+ },
+ {
+  "id": "296909",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2024.115414",
+  "title": "Spatial network disintegration with heterogeneous cost",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077924009664",
+  "md5": "8ac62f7db35994d99dc68839dbbd716a",
+  "pid": "1-s2.0-S0960077924009664-main.pdf"
+ },
+ {
+  "id": "296904",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bulsci.2024.103445",
+  "title": "Matrix-weighted Besov-Triebel-Lizorkin spaces with logarithmic smoothness",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0007449724000630",
+  "md5": "8386623fbe719894bd7d7aa318ac6276",
+  "pid": "1-s2.0-S0007449724000630-main.pdf"
+ },
+ {
+  "id": "296898",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfa.2023.110205",
+  "title": "Gagliardo representation of norms of ball quasi-Banach function spaces",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022123623003622",
+  "md5": "bd00577f5325b19ac11ed6a1eb108263",
+  "pid": "1-s2.0-S0022123623003622-main.pdf"
+ },
+ {
+  "id": "296897",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.physd.2024.134389",
+  "title": "Solitons moving on background waves of the focusing nonlinear Schrödinger equation with step-like initial condition",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167278924003397",
+  "md5": "f5b6f7945a45b5f316491204f8b81db6",
+  "pid": "1-s2.0-S0167278924003397-main.pdf"
+ },
+ {
+  "id": "296895",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2023.113103",
+  "title": "Identifying hidden target nodes for spreading in complex networks",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077923000048",
+  "md5": "d411d614a8014346a2815c203f614998",
+  "pid": "1-s2.0-S0960077923000048-main.pdf"
+ },
+ {
+  "id": "296890",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chaos.2023.114343",
+  "title": "Using complex networks and multiple artificial intelligence algorithms for table tennis match action recognition and technical-tactical analysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960077923012456",
+  "md5": "53543cd7c9d4aedb420b7ee741a8a2f9",
+  "pid": "1-s2.0-S0960077923012456-main.pdf"
+ },
+ {
+  "id": "296888",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfa.2023.110022",
+  "title": "Length Sharp stability of log-Sobolev and Moser-Onofri inequalities on the sphere *",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022123623001799",
+  "md5": "60337faecc8eb434822e75340161742b",
+  "pid": "1-s2.0-S0022123623001799-main.pdf"
+ },
+ {
+  "id": "296887",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aim.2024.109778",
+  "title": "Stability of Hardy-Littlewood-Sobolev inequalities with lower bounds",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0001870824002937",
+  "md5": "d570d9ac20183358a4999ab29d31576b",
+  "pid": "1-s2.0-S0001870824002937-main.pdf"
+ },
+ {
+  "id": "296884",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cam.2023.115145",
+  "title": "Second order stabilized semi-implicit scheme for the Cahn-Hilliard model with dynamic boundary conditions",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0377042723000894",
+  "md5": "c55fa4e5611018afa3251c8d3a975bb8",
+  "pid": "1-s2.0-S0377042723000894-main.pdf"
+ },
+ {
+  "id": "296883",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jeconom.2022.03.001",
+  "title": "Statistical inference for linear mediation models with high-dimensional mediators and application to studying stock reaction to COVID-19 pandemic",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0304407622000598",
+  "md5": "159e213338b349616471b742e290a974",
+  "pid": "1-s2.0-S0304407622000598-main.pdf"
+ },
+ {
+  "id": "296870",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jde.2024.10.003",
+  "title": "On some regularity properties of mixed local and nonlocal elliptic equations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022039624006533",
+  "md5": "64b9d52b6ed5fa1bc3dc56b8b9a5e8ec",
+  "pid": "1-s2.0-S0022039624006533-main.pdf"
+ },
+ {
+  "id": "296856",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tet.2023.133487",
+  "title": "A base-mediated dearomatization [2+3] annulation of 2-nitrobenzofurans with 4-hydroxycoumarins: A simple and direct synthesis of dihydrofurobenzofuran-coumarins",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0040402023002867",
+  "md5": "2f2f792ccf921c2364bdc7d94ae6f572",
+  "pid": "1-s2.0-S0040402023002867-main.pdf"
+ },
+ {
+  "id": "296853",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jssc.2023.124240",
+  "title": "A highly stable Sr(II) dimer bearing phenyl carboxylate and N-containing ligands: Synthesis, crystal structure and proton conduction",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022459623004085",
+  "md5": "88e9b083b002a0d4236f19386142720c",
+  "pid": "1-s2.0-S0022459623004085-main.pdf"
+ },
+ {
+  "id": "296852",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.115594",
+  "title": "A magneto-force-electrically coupled biosensor with a multiple heterogeneous structures for 5-HT detection",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X2502942X",
+  "md5": "8634208fb4e7434246f350a54c78b205",
+  "pid": "1-s2.0-S0026265X2502942X-main.pdf"
+ },
+ {
+  "id": "296851",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.139407",
+  "title": "A multifunctional highly-branched polyurethane resin achieving synchronous curing, toughening, strengthening, and V-0 flame retardancy in epoxy resin via intrinsic Si/P synergy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775725033114",
+  "md5": "0a121b9bf6c351c4cc570487249ee9e4",
+  "pid": "1-s2.0-S0927775725033114-main.pdf"
+ },
+ {
+  "id": "296850",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.142887",
+  "title": "A multiscale model to explain the spatiotemporal progression of amyloid beta and tau pathology in Alzheimer's disease",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025034397",
+  "md5": "18948a2bda9eb8075b922b66d430a19b",
+  "pid": "1-s2.0-S0141813025034397-main.pdf"
+ },
+ {
+  "id": "296845",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.dyepig.2025.113138",
+  "title": "A portable smartphone-assisted fluorescent probe for visual detection of hydrogen peroxide",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S014372082500508X",
+  "md5": "9133fcd8797ebcbc9de4686a57cde13f",
+  "pid": "1-s2.0-S014372082500508X-main.pdf"
+ },
+ {
+  "id": "296844",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.talanta.2024.125756",
+  "title": "A rapid one-step electrochemical method based on cleat-equipped molecular walking machine",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0039914024001358",
+  "md5": "c6fba17272a0caac38ccfb400116e8c3",
+  "pid": "1-s2.0-S0039914024001358-main.pdf"
+ },
+ {
+  "id": "296841",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2025.115618",
+  "title": "Ab initio investigation of electronic effects in Pd catalysts for enhanced dimethyl carbonate selectivity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468823125008016",
+  "md5": "e594a778b715bd94277b5532cf0fa8e2",
+  "pid": "1-s2.0-S2468823125008016-main.pdf"
+ },
+ {
+  "id": "296836",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.138938",
+  "title": "Ambient-pressure-dried silica aerogels modified by KH-560 for tough and hydrophobic thermal insulation: Preparation and mechanism analysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775725028420",
+  "md5": "aed072f3c583412880bd625294396442",
+  "pid": "1-s2.0-S0927775725028420-main.pdf"
+ },
+ {
+  "id": "296809",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jssc.2025.125292",
+  "title": "Charge transfer of acridine based hybrid metal halide for light-emitting diode",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S002245962500115X",
+  "md5": "5c55b75a85e37b5410c4272570591a6f",
+  "pid": "1-s2.0-S002245962500115X-main.pdf"
+ },
+ {
+  "id": "296808",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2023.113111",
+  "title": "Chemo- and regioselectivities of the TBAF-catalyzed C-F bond allylation of trifluoromethylalkenes: A theoretical view",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468823123001979",
+  "md5": "b802ff9d9166ca236d68f144fcc36b51",
+  "pid": "1-s2.0-S2468823123001979-main.pdf"
+ },
+ {
+  "id": "296805",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jaap.2025.107487",
+  "title": "Co-pyrolysis of chrome-tanned leather waste and polyethylene terephthalate: Synergistic effects on pyrolysis kinetics and product distribution",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0165237025005406",
+  "md5": "6560a342aed7f8f662fdaba626835967",
+  "pid": "1-s2.0-S0165237025005406-main.pdf"
+ },
+ {
+  "id": "296803",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2025.129176",
+  "title": "Comparative study of dynamic vulcanization strategies for polylactic acid/ polybutylene adipate terephthalate blends based on interfacial molecular dynamics investigations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0032386125011620",
+  "md5": "97434593834699e4e9ef0e1888b1d16f",
+  "pid": "1-s2.0-S0032386125011620-main.pdf"
+ },
+ {
+  "id": "296801",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmgm.2025.109150",
+  "title": "Comprehensive computational modeling and interactions mechanisms of GIPR homodimerization",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1093326325002104",
+  "md5": "6c95c8d29eb9c9eb752e88ed7f108fed",
+  "pid": "1-s2.0-S1093326325002104-main.pdf"
+ },
+ {
+  "id": "296799",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.comptc.2024.115039",
+  "title": "Computational simulation study of the mutation effects on the interaction mechanisms of LSD1 with histone H3 and non-histone Snail1 substrates",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2210271X24005784",
+  "md5": "44de9974897ee38828d204c9e7505f3d",
+  "pid": "1-s2.0-S2210271X24005784-main.pdf"
+ },
+ {
+  "id": "296791",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2025.144095",
+  "title": "Copper-catalyzed electrophilic cascade bicyclization to synthesize chromene-fused quinoline derivatives for cancer therapy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286025027413",
+  "md5": "89f6f77e560d5a14b4c5809f261290e0",
+  "pid": "1-s2.0-S0022286025027413-main.pdf"
+ },
+ {
+  "id": "296789",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.dyepig.2025.112880",
+  "title": "D-A type photovoltaic polymer donor based on acenaphtho[1,2-b] quinoxaline imide (AQI)",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0143720825002505",
+  "md5": "d5db47fbe1db42e263a87c99db2e9c7f",
+  "pid": "1-s2.0-S0143720825002505-main.pdf"
+ },
+ {
+  "id": "296788",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.dyepig.2024.112516",
+  "title": "D-A type polymers based on quinoxaline unit containing halogenated thiophene side chain as hole transport materials for efficient CsPbI2Br perovskite solar cells",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0143720824005825",
+  "md5": "9817e942fc4aa6291ddaf85648092af6",
+  "pid": "1-s2.0-S0143720824005825-main.pdf"
+ },
+ {
+  "id": "296787",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2025.115215",
+  "title": "DFT investigation of photocatalytic contra-thermodynamic alkene isomerization in α-substituted alkenylazaarenes",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468823125004006",
+  "md5": "a7d1d51562a5d43409e5f6ad9f8beef6",
+  "pid": "1-s2.0-S2468823125004006-main.pdf"
+ },
+ {
+  "id": "296780",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmcl.2025.130399",
+  "title": "Design, synthesis and biological evaluation of novel histone deacetylase 6 inhibitors containing indole-based cap groups",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960894X25003087",
+  "md5": "3fabbbc0cc9570e3d19046d8ca18ad0c",
+  "pid": "1-s2.0-S0960894X25003087-main.pdf"
+ },
+ {
+  "id": "296779",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmcl.2024.129972",
+  "title": "Design, synthesis, and activity evaluation of water-soluble propofol derivatives as anesthetic drugs",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960894X24003743",
+  "md5": "0018bd65311517828c5f012e4a06be7e",
+  "pid": "1-s2.0-S0960894X24003743-main.pdf"
+ },
+ {
+  "id": "296776",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmc.2025.118502",
+  "title": "Development of cationic Pyridinium-Oxazolidinone derivatives as antibacterial agents",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0968089625004432",
+  "md5": "314751f56c751f5077cb970387962486",
+  "pid": "1-s2.0-S0968089625004432-main.pdf"
+ },
+ {
+  "id": "296765",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.182615",
+  "title": "Effect of Mg/Fe microalloying on precipitation behavior and properties of Cu-Ni-Co-P alloys",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825041763",
+  "md5": "80f2b3d2d3e3aca6e7affaeeb664629f",
+  "pid": "1-s2.0-S0925838825041763-main.pdf"
+ },
+ {
+  "id": "296762",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.micromeso.2024.113482",
+  "title": "Effect of low-temperature ozonation-assisted detemplation on the properties and catalytic performance of Sn-Beta zeolite",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1387181124005043",
+  "md5": "8123a49a168f863ae51380a01cc2a92a",
+  "pid": "1-s2.0-S1387181124005043-main.pdf"
+ },
+ {
+  "id": "296758",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.139126",
+  "title": "Effective combined depressants for selective flotation separation of fine rutile from garnet particles",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775725030304",
+  "md5": "835ddb934fd5212578054808caa66b0b",
+  "pid": "1-s2.0-S0927775725030304-main.pdf"
+ },
+ {
+  "id": "296754",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chemphys.2025.112835",
+  "title": "Electronic and optical properties modulation of heterostructures based on Na2S and h-BN under biaxial strain",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0301010425002368",
+  "md5": "b11b06195e2c06eb5b8b4efc6f1c4a08",
+  "pid": "1-s2.0-S0301010425002368-main.pdf"
+ },
+ {
+  "id": "296751",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.saa.2025.126777",
+  "title": "Engineering tactics for organelle targeting behavior and PDT efficiency by fine structural regulation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1386142525010844",
+  "md5": "ee02cf27c384c13c0150b42232547396",
+  "pid": "1-s2.0-S1386142525010844-main.pdf"
+ },
+ {
+  "id": "296748",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.electacta.2025.145833",
+  "title": "Enhanced sodium ion storage capability through integrated functionality within conductive PPy coated MoS2/SnS composite",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0013468625001963",
+  "md5": "4a46f035b67e49136e932e4f10d5827e",
+  "pid": "1-s2.0-S0013468625001963-main.pdf"
+ },
+ {
+  "id": "296745",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cattod.2025.115614",
+  "title": "Enhancing higher alcohols selectivity in CO2 hydrogenation over FeCu catalysts via Mg modification",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0920586125004328",
+  "md5": "174ab3eea1af1dcb705cc2a958e848a0",
+  "pid": "1-s2.0-S0920586125004328-main.pdf"
+ },
+ {
+  "id": "296738",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.solidstatesciences.2025.108108",
+  "title": "Fabrication of carbon quantum dot-decorated Bi2MoO6 composites via a hydrothermal method for enhanced photocatalytic degradation of Rhodamine B",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1293255825002869",
+  "md5": "0c0ab15c090dbb56513e584fe5922206",
+  "pid": "1-s2.0-S1293255825002869-main.pdf"
+ },
+ {
+  "id": "296737",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jssc.2024.125038",
+  "title": "Fabrication of perovskite vertical heterojunction and flexible single-crystal arrays using droplet-evaporated crystallization method",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022459624004924",
+  "md5": "26dfc58ecf8e27b22c0f2ed2e39f4654",
+  "pid": "1-s2.0-S0022459624004924-main.pdf"
+ },
+ {
+  "id": "296736",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.inoche.2024.113070",
+  "title": "Facile and scalable synthesis of N-doped carbon based Ni electrocatalyst for efficient CO2 2 reduction to CO",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1387700324010578",
+  "md5": "e6c30654992202d07b9740953a3a98f2",
+  "pid": "1-s2.0-S1387700324010578-main.pdf"
+ },
+ {
+  "id": "296733",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcis.2025.139456",
+  "title": "Fe-doping in La0.8Sr0.2FexMn1 xO3 perovskite catalysts for enhanced electrochemical NOx removal in gas diffusion electrodes",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021979725028486",
+  "md5": "9f5b3ac3a742f4325464dc6f9af5e9b9",
+  "pid": "1-s2.0-S0021979725028486-main.pdf"
+ },
+ {
+  "id": "296732",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aca.2025.344997",
+  "title": "Fe3O4 nanozyme integrated upconversion luminescence synergistic energy transfer composite nanoplatform for the ultrasensitive detection of proGRP",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003267025013911",
+  "md5": "96d9f8cd60b0b213f24ec638b02967f2",
+  "pid": "1-s2.0-S0003267025013911-main.pdf"
+ },
+ {
+  "id": "296727",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tetlet.2024.155372",
+  "title": "Functionalization of Lewis base (LB) in LB-BR3 adducts",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0040403924004672",
+  "md5": "418d6141a609675d6d5f1a685295b26e",
+  "pid": "1-s2.0-S0040403924004672-main.pdf"
+ },
+ {
+  "id": "296722",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2024.09.040",
+  "title": "H-atom abstraction reactions of C1-C4 alkanes by ketenyl radical: Kinetic investigation and analysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319924037492",
+  "md5": "471e37092a31a4fa7fecc049f4547c33",
+  "pid": "1-s2.0-S0360319924037492-main.pdf"
+ },
+ {
+  "id": "296721",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jssc.2024.124974",
+  "title": "Hexagonal-prismatic metal-organic cages and metal-organic polymers based on 1,1'-(5-methyl-1,3-phenylene)bis(1H-imidazole) ligand: Synthesis, structural characterization and magnetic property",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022459624004286",
+  "md5": "c23834e2191a2ccf7114867660caab44",
+  "pid": "1-s2.0-S0022459624004286-main.pdf"
+ },
+ {
+  "id": "296719",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.electacta.2025.147347",
+  "title": "Hierarchical porous Nb2O5 cathodes for efficient electro-deoxidation in molten salts toward niobium powder preparation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0013468625017049",
+  "md5": "af9b4e4a07d49cd77c90c1d64e86e8dc",
+  "pid": "1-s2.0-S0013468625017049-main.pdf"
+ },
+ {
+  "id": "296714",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.139005",
+  "title": "Highly crystalline chiral metal-organic framework separation membranes: Fabrication via ultrasonic nanocrystal seeds for improved enantioseparation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775725029097",
+  "md5": "066bd68110993b588e8d7238b2bcc225",
+  "pid": "1-s2.0-S0927775725029097-main.pdf"
+ },
+ {
+  "id": "296713",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2024.177105",
+  "title": "Highly efficient nitrogen-doped three-dimensional interconnected porous carbon supported heterogeneous Co/MnO nanoparticles oxygen electrocatalysts for rechargeable zinc air batteries",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838824036922",
+  "md5": "3461d2c6baeb9c07f0b798cf9fcb676c",
+  "pid": "1-s2.0-S0925838824036922-main.pdf"
+ },
+ {
+  "id": "296711",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cplett.2025.142511",
+  "title": "Host-guest vibrational couplings govern divergent pressure-dependent heat transport in clathrate hydrates",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0009261425006542",
+  "md5": "6e6e7fc5c01558ecd4d2416fe1b7c9c7",
+  "pid": "1-s2.0-S0009261425006542-main.pdf"
+ },
+ {
+  "id": "296707",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2024.136747",
+  "title": "Identification of a novel conserved B-cell epitope in p15 of the African swine fever virus",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813024075561",
+  "md5": "28b417335f19f90f19091154d5b33b3a",
+  "pid": "1-s2.0-S0141813024075561-main.pdf"
+ },
+ {
+  "id": "296705",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.147234",
+  "title": "Immunochromatographic assay for rapid detection of SIGLEC15 to evaluate its therapeutic potential in cervical cancer",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025077918",
+  "md5": "4842ed0d98a15b366f77a1a148fa8fe4",
+  "pid": "1-s2.0-S0141813025077918-main.pdf"
+ },
+ {
+  "id": "296700",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jconrel.2025.114555",
+  "title": "Inhalable nanosystem promote in situ packaging of IL-11 antisense oligonucleotides into macrophage-derived vesicles for idiopathic pulmonary fibrosis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0168365925011691",
+  "md5": "58a4c417df2a7ff32656afddf35f5ed7",
+  "pid": "1-s2.0-S0168365925011691-main.pdf"
+ },
+ {
+  "id": "296698",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcis.2025.139650",
+  "title": "Interface engineered cobalt sulfide/graphitic carbon nitride Ohmic junction for enhanced photocatalytic hydrogen production: Mechanism and density functional theory insights",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021979725030425",
+  "md5": "8de683df83fbe05e3348d2f51782c498",
+  "pid": "1-s2.0-S0021979725030425-main.pdf"
+ },
+ {
+  "id": "296697",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2025.152243",
+  "title": "Interface excitation effect of B/P-coordinated cobalt heterostructure for boosting hydrogen generation from ammonia borane",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319925052462",
+  "md5": "8f767c0f17f99f0d8e3bb8dad9d6d168",
+  "pid": "1-s2.0-S0360319925052462-main.pdf"
+ },
+ {
+  "id": "296696",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.180160",
+  "title": "Interface modification of Ti3C2TX/ZK61 composites via a water-free mixing method",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825017189",
+  "md5": "98653f7e951a8d1dcab58d1300ed28b2",
+  "pid": "1-s2.0-S0925838825017189-main.pdf"
+ },
+ {
+  "id": "296695",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/bs.mie.2023.06.004",
+  "title": "Internalization and trafficking of zinc transporters",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0076687923002094"
+ },
+ {
+  "id": "296693",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.181697",
+  "title": "Investigating deformation mechanisms of (FeCoNiCr)92Ti3.5Al4.5 HEA treated by ultrasonic nanocrystal surface modification",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S092583882503258X",
+  "md5": "d0146930148906e27db4752ea2fe6de9",
+  "pid": "1-s2.0-S092583882503258X-main.pdf"
+ },
+ {
+  "id": "296684",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2025.01.198",
+  "title": "Matching fracture geometry characterization to real-time pressure behaviors for high-efficient production of multi-fractured horizontal wells",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319925002198",
+  "md5": "ec492ab19a8acc270f25258e39ba6d38",
+  "pid": "1-s2.0-S0360319925002198-main.pdf"
+ },
+ {
+  "id": "296678",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.114209",
+  "title": "Mismatch crRNA mediated CRISPR/Cas12a system to simultaneously screen dual adjacent mutations of kelch13 gene in Plasmodium falciparum resistance to artemisinin",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25015632",
+  "md5": "d1c24df81a9165d4f257f816b79a9013",
+  "pid": "1-s2.0-S0026265X25015632-main.pdf"
+ },
+ {
+  "id": "296676",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jphotochem.2025.116981",
+  "title": "Modulating energy band structure via thiophene functionalization of zinc tetrazolate MOFs for efficient visible light photodegradation of organic pollutants",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S101060302500721X",
+  "md5": "5576956220b85b0f3d9413e9b44b268e",
+  "pid": "1-s2.0-S101060302500721X-main.pdf"
+ },
+ {
+  "id": "296673",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.113980",
+  "title": "Na3CA-assisted post-necking treatment of Bi4TaO8Cl photoelectrode for improved photoelectrochemical sensing of cysteine",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25013347",
+  "md5": "816c695179255e052e446e9c92b217d6",
+  "pid": "1-s2.0-S0026265X25013347-main.pdf"
+ },
+ {
+  "id": "296672",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.178932",
+  "title": "Nanorod-assembled hollow hydroxyapatite microspheres prepared by an additive-free hydrothermal method using sodium hexametaphosphate as a phosphorus source",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825004906",
+  "md5": "db56e91c2ca5019281386811b144140d",
+  "pid": "1-s2.0-S0925838825004906-main.pdf"
+ },
+ {
+  "id": "296670",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2025.144326",
+  "title": "Noble metal Au-modified TiO2 hollow spheres efficiently drive photocatalytic hydrogen production",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286025029709",
+  "md5": "de22b40a5fa345abde36f2cddda348b9",
+  "pid": "1-s2.0-S0022286025029709-main.pdf"
+ },
+ {
+  "id": "296669",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tetlet.2024.155228",
+  "title": "Novel synthesis of Abaloparatide: Advancing osteoporosis treatment in postmenopausal women",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S004040392400323X",
+  "md5": "ebbf030bf1c0adc7aaed880151301254",
+  "pid": "1-s2.0-S004040392400323X-main.pdf"
+ },
+ {
+  "id": "296667",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpowsour.2025.236848",
+  "title": "Numerical evaluation of a novel integrated solar reactor for high-temperature H2O electrolysis with high scalability and solar-to-fuel efficiency",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0378775325006846",
+  "md5": "7bf38cfc57ab6a08e98c08303b6e23d0",
+  "pid": "1-s2.0-S0378775325006846-main.pdf"
+ },
+ {
+  "id": "296664",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.carres.2023.108830",
+  "title": "One-pot synthesis of heteroaryl diketoalkynyl C-glycoside and dialkynyl di-C-glycoside analogues by three-component successive coupling reaction",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0008621523000927",
+  "md5": "ae6f6956dcf506e2ab4781d999c24c42",
+  "pid": "1-s2.0-S0008621523000927-main.pdf"
+ },
+ {
+  "id": "296661",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmc.2025.118415",
+  "title": "Optimization of novel TRPV1 antagonists bearing 1-((2,2-difluorobenzo[d] [1,3] dioxol-5-yl) methyl) piperazine for pain management: Mechanistic insights into NLRP3 Inflammasome modulation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0968089625003566",
+  "md5": "de738c4a7f9a184b8fd336291a5e2cad",
+  "pid": "1-s2.0-S0968089625003566-main.pdf"
+ },
+ {
+  "id": "296654",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2025.128718",
+  "title": "Phase inversion in melt-extruded high-density polyethylene/poly(ethylene oxide) blend: The critical role of molecular weight and rheology behavior",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0032386125007049",
+  "md5": "7c58d067dd73ec0f5dc29975878da794",
+  "pid": "1-s2.0-S0032386125007049-main.pdf"
+ },
+ {
+  "id": "296652",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.138296",
+  "title": "Physical modeling of bottom-blown bubble penetration dynamics at slag/ metal interface in metallurgical reactors",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775725021995",
+  "md5": "dd72540e77af7417311d336d2ae76610",
+  "pid": "1-s2.0-S0927775725021995-main.pdf"
+ },
+ {
+  "id": "296651",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molliq.2024.124395",
+  "title": "Physicochemical properties and biological activities of new berberine-based salts with syringic acid as well as 3,5-dimethoxybenzoic acid as anions: Effect of temperature, concentration and anion",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167732224004513",
+  "md5": "1f502f121451fcfe96932e712babc56f",
+  "pid": "1-s2.0-S0167732224004513-main.pdf"
+ },
+ {
+  "id": "296650",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.fochx.2025.103280",
+  "title": "Phytoconstituents, antioxidant and enzyme inhibition activities of coffee beans through widely targeted metabolomes and in vitro arrays",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2590157525011277",
+  "md5": "f285d25291146ab07332a197146d783f",
+  "pid": "1-s2.0-S2590157525011277-main.pdf"
+ },
+ {
+  "id": "296646",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.surfin.2025.107090",
+  "title": "Potential applications in metallic TM(OH)2 and TMOH2 monolayers: A first-principles study",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468023025013422",
+  "md5": "ff4f3b44e7416b8351753f404c8f5676",
+  "pid": "1-s2.0-S2468023025013422-main.pdf"
+ },
+ {
+  "id": "296640",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.137924",
+  "title": "Preparation and self-assembled behaviors of OPPEA and A-BPEF composite Langmuir-Blodgett films with photovoltaic conversion and acid-base gas sensing properties",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775725018278",
+  "md5": "3672161002d281b699bad2465e5daa5b",
+  "pid": "1-s2.0-S0927775725018278-main.pdf"
+ },
+ {
+  "id": "296639",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.eurpolymj.2024.112762",
+  "title": "Preparation of silicon quantum dots@star like bloc-copolymer (SiQD@S-BP) colloidal nanoclusters through in-situ reduction and confined growth",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0014305724000235",
+  "md5": "222ac7078aa31ca6928189a2b9c3e9f9",
+  "pid": "1-s2.0-S0014305724000235-main.pdf"
+ },
+ {
+  "id": "296628",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijms.2024.117238",
+  "title": "Pseudotargeted metabolomics method and its application in erastin-stimulated gastric adenocarcinoma cells based on liquid chromatography with tandem mass spectrometry",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1387380624000496",
+  "md5": "d82909dfc072cb4897246b9f7cccf360",
+  "pid": "1-s2.0-S1387380624000496-main.pdf"
+ },
+ {
+  "id": "296622",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.146218",
+  "title": "Rational design of a cost-effective IRES-stem-loop translation system independent of cap and poly(A) tail",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025067753",
+  "md5": "51fc525937d25dd40e1659552e545ab4",
+  "pid": "1-s2.0-S0141813025067753-main.pdf"
+ },
+ {
+  "id": "296613",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.surfin.2025.106742",
+  "title": "Research on HV-PA-based composite microgel coatings for the temporary protection of unearthed bronze ware",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S246802302500999X",
+  "md5": "2f610b1cb6d4252e64b8e5160c735130",
+  "pid": "1-s2.0-S246802302500999X-main.pdf"
+ },
+ {
+  "id": "296611",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.reactfunctpolym.2025.106499",
+  "title": "Reversible Ca2+coordination crosslinking of rPVB via melt blending: Concurrent enhancement of thermo-mechanical properties, shape memory effects, and ionic conductivity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1381514825003517",
+  "md5": "9eaaf82372ae26bd9276fc7eceae748b",
+  "pid": "1-s2.0-S1381514825003517-main.pdf"
+ },
+ {
+  "id": "296606",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpba.2025.117177",
+  "title": "Simultaneous determination of nucleosides, modified nucleosides and mononucleotides in gastric cancer cells by liquid chromatography coupled with tandem mass spectrometry",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0731708525005187",
+  "md5": "cc9bffd34a3f114bc7ebaf99e7cf83fb",
+  "pid": "1-s2.0-S0731708525005187-main.pdf"
+ },
+ {
+  "id": "296603",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jics.2025.102342",
+  "title": "Solubility determination and correlation, solvent effect and thermodynamic analysis of α-Ketoglutaric acid in pure and binary solvents at 283.15-328.15 K",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0019452225007770",
+  "md5": "3f39e36231f780190da8a6f26fccba98",
+  "pid": "1-s2.0-S0019452225007770-main.pdf"
+ },
+ {
+  "id": "296595",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2024.137964",
+  "title": "Structural and functional optimization of glycoprotein-enzymes for targeted biocatalysis in oral squamous cell carcinoma",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813024087750",
+  "md5": "169b4e9896be5b3e9249b1d208726a7e",
+  "pid": "1-s2.0-S0141813024087750-main.pdf"
+ },
+ {
+  "id": "296593",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcrysgro.2025.128344",
+  "title": "Structural, resistivity and magnetic properties of millimeter-sized HfAl3 single crystals grown from Al flux",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022024825002982",
+  "md5": "b4afac91e2f832019db4338dfbc41911",
+  "pid": "1-s2.0-S0022024825002982-main.pdf"
+ },
+ {
+  "id": "296591",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.163309",
+  "title": "Study on the interlayer and interphase multiple coordination deformation mechanism of Fe-20.4Cr-4.7Mn-0.27N duplex stainless steel with gradient heterostructure",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225010232",
+  "md5": "5401d2466278873d6c56b42c153e86fc",
+  "pid": "1-s2.0-S0169433225010232-main.pdf"
+ },
+ {
+  "id": "296590",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.179320",
+  "title": "Sulfur-alloying ensures the reproducibility of p-type cubic AgSnBiSe3 thermoelectric material with low lattice thermal conductivity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825008783",
+  "md5": "c0c365ea4293285d9d90fa3e0dc1968e",
+  "pid": "1-s2.0-S0925838825008783-main.pdf"
+ },
+ {
+  "id": "296580",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2024.139154",
+  "title": "Synthesis and photocatalytic properties of three new organic-inorganic hybrid supramolecular assemblies formed by polyvalent organic cations with ammonium molybdate or inorganic metal salts",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286024016727",
+  "md5": "26a0291f6e4f1ef40b7a9a645705b0a3",
+  "pid": "1-s2.0-S0022286024016727-main.pdf"
+ },
+ {
+  "id": "296574",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2024.139062",
+  "title": "Synthesis of polyoxometalate compounds based on 4-pyridine carboxylic acid ligands and their photocatalytic degradation of tetracycline",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286024015801",
+  "md5": "edf7389ea6484cb8b7bcd39e17faa65d",
+  "pid": "1-s2.0-S0022286024015801-main.pdf"
+ },
+ {
+  "id": "296573",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ica.2025.122764",
+  "title": "Synthesis, characterization and luminescent properties of copper(I) halide 1D polymers with pyridoimidazole-derived bisphosphine ligand",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0020169325002300",
+  "md5": "1fc1cab1db8183c992f93899d8b2dd9f",
+  "pid": "1-s2.0-S0020169325002300-main.pdf"
+ },
+ {
+  "id": "296572",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2024.141164",
+  "title": "Synthesis, characterization and water treatment properties of bismuth iodide supramolecular compounds based on dicationic templates capped with n-aminopyridine group (n=3, 4)",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S002228602403669X",
+  "md5": "9515ea0a5fefc23e5556c7be76660df0",
+  "pid": "1-s2.0-S002228602403669X-main.pdf"
+ },
+ {
+  "id": "296571",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2025.144118",
+  "title": "Synthesis, characterization, and inhibitory activity of NLRP3 inflammasome-mediated IL-1β secretion of celastrol derivatives",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286025027644",
+  "md5": "db391a57251f0e3f4f44e01484929510",
+  "pid": "1-s2.0-S0022286025027644-main.pdf"
+ },
+ {
+  "id": "296569",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.eurpolymj.2025.114394",
+  "title": "Tailoring ethylene terephthalate and poly(tetramethylene glycol) into poly (ethylene 2,5-furandicarboxylate) backbone for a delicate balance of toughness and thermostability",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0014305725006822",
+  "md5": "cdbb5b3f29a36a56506b3a5bc43aa87b",
+  "pid": "1-s2.0-S0014305725006822-main.pdf"
+ },
+ {
+  "id": "296568",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcat.2025.116079",
+  "title": "Tailoring microenvironments of metal-enzyme cascade catalysts for efficient DKR reaction of chiral amine",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021951725001447",
+  "md5": "25c04cb8da487aebb8cbf39b8314f274",
+  "pid": "1-s2.0-S0021951725001447-main.pdf"
+ },
+ {
+  "id": "296564",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.140241",
+  "title": "The Cry2Aa protein is not enough to pose a threat to Pardosa astrigera",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025007901",
+  "md5": "8d20ca6b1585f21d7d581c4f35af0c17",
+  "pid": "1-s2.0-S0141813025007901-main.pdf"
+ },
+ {
+  "id": "296559",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijoes.2025.100999",
+  "title": "The impact of novel modified lithium methacrylate trifluoroborate (LiBF3-MA) additive for anode interfaces under high temperature operating condition",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1452398125000744",
+  "md5": "3dec4649ed52f79d4680c199566d45e1",
+  "pid": "1-s2.0-S1452398125000744-main.pdf"
+ },
+ {
+  "id": "296557",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2025.05.027",
+  "title": "Theoretical study on the regulation of ScCl2 electrocatalytic activity through functionalization with H, O, and F",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319925022761",
+  "md5": "c8f6d7f597898ab010fe247fd4ec041b",
+  "pid": "1-s2.0-S0360319925022761-main.pdf"
+ },
+ {
+  "id": "296554",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cclet.2025.111380",
+  "title": "Total synthesis of ADPr-ATP and evaluation of the antiviral activity of pRib-AMP prodrug",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1001841725005649",
+  "md5": "0d832c4faf3933d853e257616d50e31d",
+  "pid": "1-s2.0-S1001841725005649-main.pdf"
+ },
+ {
+  "id": "296545",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.reactfunctpolym.2025.106296",
+  "title": "Ultra-fast extraction of gold using spherical N-rich polymers",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1381514825001488",
+  "md5": "c643e557a44be73bde973b9fc9c835e4",
+  "pid": "1-s2.0-S1381514825001488-main.pdf"
+ },
+ {
+  "id": "296544",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.116762",
+  "title": "Ultrafast detection of toxic total polar materials in edible oils using a merocyanine-based turn-on fluorescent probe",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25041141",
+  "md5": "d20da1af8eac4168b7ce0f3d36f15d08",
+  "pid": "1-s2.0-S0026265X25041141-main.pdf"
+ },
+ {
+  "id": "296537",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.saa.2025.126902",
+  "title": "Unveiling the binding details of berberine mid-chain fatty acid salts on lysozyme: Multi-spectroscopy and molecular docking",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1386142525012090",
+  "md5": "5a22fe39e13af8514dd42a03156b705f",
+  "pid": "1-s2.0-S1386142525012090-main.pdf"
+ },
+ {
+  "id": "296535",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2024.114715",
+  "title": "Unveiling the role of aniline as a Brønsted base in Rh-catalyzed C<inverted exclamation>H alkylation: Computational insights into amino-assisted outer-sphere CMD",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468823124008976",
+  "md5": "2f04dc81d6458216b9ae7118ff6b3cd2",
+  "pid": "1-s2.0-S2468823124008976-main.pdf"
+ },
+ {
+  "id": "296532",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.185582",
+  "title": "WC-CoNi/diamond composites fabricated by laser powder bed fusion: Microstructure, graphitization and mechanical properties",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825071464",
+  "md5": "879fc5bb30b5491fba42639a30738e23",
+  "pid": "1-s2.0-S0925838825071464-main.pdf"
+ },
+ {
+  "id": "296531",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.surfin.2025.107672",
+  "title": "Wetting study of In and Sn solders on AlSc target and Cu backboard materials based on molecular dynamics and first-principles calculation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468023025019248",
+  "md5": "0614e9c875f81e4f0b0ca90b146c6c33",
+  "pid": "1-s2.0-S2468023025019248-main.pdf"
+ },
+ {
+  "id": "296526",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bios.2025.117993",
+  "title": "A DNA-programmed magnetic photoactive probe enabling discriminative photoelectrochemical sensing of diverse targets",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0956566325008693",
+  "md5": "7b7762d893e2b918eb100d1dc8dd7deb",
+  "pid": "1-s2.0-S0956566325008693-main.pdf"
+ },
+ {
+  "id": "296519",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jorganchem.2025.123705",
+  "title": "A combined experimental and theoretical investigations of structure and luminescence in mono- and di-nuclear copper(I) complexes containing N P- type iminephosphine ligand",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022328X25001986",
+  "md5": "bf9cafd8dd49ad3d661862b1e17c3f25",
+  "pid": "1-s2.0-S0022328X25001986-main.pdf"
+ },
+ {
+  "id": "296518",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.nantod.2025.102842",
+  "title": "A dual-cell-targeting epigenetic nano-editor for reshaping the intratumoral T cell niche",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1748013225002142",
+  "md5": "c6a760ae1c3a97fb91b409e860b4bd4b",
+  "pid": "1-s2.0-S1748013225002142-main.pdf"
+ },
+ {
+  "id": "296514",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.surfin.2024.105669",
+  "title": "A new insight: Investigating calcium silicate hydrate as a potential adsorbent for hydrogen sulfide removal",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468023024018248",
+  "md5": "40847acbef7c08cfcd5121b702d3e92d",
+  "pid": "1-s2.0-S2468023024018248-main.pdf"
+ },
+ {
+  "id": "296513",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.intermet.2025.109086",
+  "title": "A novel as-cast Ni42.6Fe24.6Cr16.4Al15.4Nb1 medium-entropy alloy with excellent mechanical properties from room to elevated temperatures",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0966979525004510",
+  "md5": "fd318dc544675e361173a7d9557c9709",
+  "pid": "1-s2.0-S0966979525004510-mainext.pdf"
+ },
+ {
+  "id": "296509",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.114931",
+  "title": "A ratiometric electrochemical sensor based on molecular imprinting for highly selective detection of HVA",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25022799",
+  "md5": "cd3709fb0c1124705d5fbcf023aa3cd2",
+  "pid": "1-s2.0-S0026265X25022799-main.pdf"
+ },
+ {
+  "id": "296506",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.dyepig.2025.113352",
+  "title": "A smartphone-fluorescent test strip-machine learning integrated platform for the visual and on-site detection of tetracycline (TC) in fish samples",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0143720825007223",
+  "md5": "d2fe89be344bd76c6c9cc6a339005965",
+  "pid": "1-s2.0-S0143720825007223-main.pdf"
+ },
+ {
+  "id": "296503",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.inoche.2025.115210",
+  "title": "Adsorption and catalytic degradation of malachite green by polyethyleneimine modified HO-CNTs/CuNiFe2O4",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1387700325013279",
+  "md5": "109ddfc115d806ea24bab25f3a29693c",
+  "pid": "1-s2.0-S1387700325013279-main.pdf"
+ },
+ {
+  "id": "296501",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aca.2024.343359",
+  "title": "Advanced design of target-driven self-powered sensor assisted by cascade catalytic strategy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003267024011607",
+  "md5": "f00d62bee6073081636f9530d921ab4d",
+  "pid": "1-s2.0-S0003267024011607-main.pdf"
+ },
+ {
+  "id": "296499",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.115138",
+  "title": "Ag/AgCl nanocubes-regulated Fe2O3/CuO Z-scheme heterojunction for sensitive differential signal photoelectrochemical detection of oxytetracycline",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25024865",
+  "md5": "61a1af8f5e6dacfd615d12084b01c55c",
+  "pid": "1-s2.0-S0026265X25024865-main.pdf"
+ },
+ {
+  "id": "296497",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.165410",
+  "title": "Amorphous molybdenum-doped WO3 films: enhanced electrochromic kinetics, memory retention, and influence of multivalent electrolyte ions",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225031277",
+  "md5": "d688501be671802a0dab77c504c59403",
+  "pid": "1-s2.0-S0169433225031277-main.pdf"
+ },
+ {
+  "id": "296496",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.115300",
+  "title": "An APE1-assisted cyclic amplification biosensor based on rolling circle amplification for highly sensitive quantitative and qualitative detection of nucleic acids",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25026487",
+  "md5": "153018203522b40797378d6ce87681fc",
+  "pid": "1-s2.0-S0026265X25026487-main.pdf"
+ },
+ {
+  "id": "296493",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ab.2025.115985",
+  "title": "An ultrasensitive electrochemical immunosensor constructed via Ag-GO-Nf nanocomposites for the detection of pefloxacin",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003269725002246",
+  "md5": "84e8ad9e7ae966ef0da74b89e980fe18",
+  "pid": "1-s2.0-S0003269725002246-main.pdf"
+ },
+ {
+  "id": "296487",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2024.137029",
+  "title": "Atomically precise Au4Cu4-alkynyl clusters with bright photoluminescence for hydroxyl radical detection and arthritis diagnosis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400524017593",
+  "md5": "98b24d3039050d28211827b5e638a228",
+  "pid": "1-s2.0-S0925400524017593-main.pdf"
+ },
+ {
+  "id": "296483",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpowsour.2025.237223",
+  "title": "Boosting electrochemical performances of lithium sulfur battery via rational design and fabrication engineering of cobalt boride-based core-shell structure composite as a multifunctional sulfur host",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0378775325010596",
+  "md5": "b12c5568070be7fddcc2821889f3eee3",
+  "pid": "1-s2.0-S0378775325010596-main.pdf"
+ },
+ {
+  "id": "296481",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2025.128867",
+  "title": "CPBA/PVDF dielectric elastomer composites with high actuation performance under low electric field by optimizing the internal structure",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0032386125008535",
+  "md5": "9c70b81ce21842a6f2ebddd31992cc1a",
+  "pid": "1-s2.0-S0032386125008535-main.pdf"
+ },
+ {
+  "id": "296480",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcis.2025.139693",
+  "title": "Carbon-supported bimetallic RuCu catalyst for efficient hydrogen evolution from ammonia borane hydrolysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021979725030851",
+  "md5": "987513481b8f3a50e2fafb4e263e0b74",
+  "pid": "1-s2.0-S0021979725030851-main.pdf"
+ },
+ {
+  "id": "296476",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.supflu.2025.106734",
+  "title": "Cellulose acetate foams fabricated by solvent-assisted foaming via plasticization and enhanced CO2 diffusion",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0896844625002219",
+  "md5": "f41a8ee3795f0d5ea0c14ab401b7862b",
+  "pid": "1-s2.0-S0896844625002219-main.pdf"
+ },
+ {
+  "id": "296475",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.116508",
+  "title": "Cerium vanadate/nitrogen-doped graphene (CeVO4/N-rGO) nanocomposite-modified electrochemical sensing platform for simultaneous detection of fenitrothion and imidacloprid",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25038585",
+  "md5": "7a6133be043fc78e7706bf1176659325",
+  "pid": "1-s2.0-S0026265X25038585-main.pdf"
+ },
+ {
+  "id": "296474",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfca.2025.107374",
+  "title": "Characterization of lipid distribution and volatile profile in high-marbling beef of Jiaxian Red cattle",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0889157525001887",
+  "md5": "f5c379196fcf45f03448ff088558fef5",
+  "pid": "1-s2.0-S0889157525001887-main.pdf"
+ },
+ {
+  "id": "296470",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aca.2025.344885",
+  "title": "Co-encapsulation of Au nanoclusters and carbon dots in ZIF with reversed acid-responsiveness for enhanced point-of-care testing of urease activity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003267025012796",
+  "md5": "676b9b4facb7ed5bd3b96f95dd4e150e",
+  "pid": "1-s2.0-S0003267025012796-main.pdf"
+ },
+ {
+  "id": "296469",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcis.2025.139517",
+  "title": "CoS2/FeS2 hollow microspheres: Bimetallic synergistic acceleration of surface reconstruction for efficient and stable seawater electrolysiss",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021979725029091",
+  "md5": "55135e58d5094ea632e36277605747c0",
+  "pid": "1-s2.0-S0021979725029091-main.pdf"
+ },
+ {
+  "id": "296468",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.138000",
+  "title": "Colorimetric/Photothermal/Fluorescence triple-mode assay based on CWO/NiOOH with oxidase-like activity for accurate detection of H2O2 in food",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S092777572501903X",
+  "md5": "c6e634f1e2fc7c7f780ca21690049484",
+  "pid": "1-s2.0-S092777572501903X-main.pdf"
+ },
+ {
+  "id": "296459",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.114318",
+  "title": "Construction of a visual lateral flow chromatographic and electrochemical immunosensor based on bimetallic Prussian blue analogue for efficiently sensing SARS-CoV-2",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25016728",
+  "md5": "f05e3658fa3aff31d5ac3d3f2f1c4d1b",
+  "pid": "1-s2.0-S0026265X25016728-main.pdf"
+ },
+ {
+  "id": "296458",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jssc.2025.125618",
+  "title": "Construction of highly efficient heterojunction photoanode Vo-Co3O4/ Fe2O3 rich in oxygen vacancies for photoelectrochemical water splitting",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022459625004426",
+  "md5": "5ff84550abc42b22c5847ac6b084eaad",
+  "pid": "1-s2.0-S0022459625004426-main.pdf"
+ },
+ {
+  "id": "296448",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.talanta.2024.126169",
+  "title": "Design of magnetic photonic crystal microdroplet for sensitive detection of cationic organic pollutants by the coupled resonance effect",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0039914024005484",
+  "md5": "8d91a07e254213f4f7db5a8839f58a35",
+  "pid": "1-s2.0-S0039914024005484-main.pdf"
+ },
+ {
+  "id": "296447",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bioorg.2025.108589",
+  "title": "Design, synthesis, and in-vitro/in-vivo pharmacodynamic studies of novel aza-fused heterocyclic compounds against herpes simplex virus type 1",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0045206825004699",
+  "md5": "0895a79bc20cc567e1f4b6a441b6b6d2",
+  "pid": "1-s2.0-S0045206825004699-main.pdf"
+ },
+ {
+  "id": "296446",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cplett.2025.142350",
+  "title": "Determining the geographical origin of Fritillaria by terahertz spectroscopy and machine learning algorithms",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0009261425004920",
+  "md5": "735fdfd7a97cf2c946945e8cbc2565a4",
+  "pid": "1-s2.0-S0009261425004920-main.pdf"
+ },
+ {
+  "id": "296443",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aca.2025.343687",
+  "title": "Development of a rapid and sensitive RPA-CRISPR/Cas12a assay for non-invasive pre-implantation genetic testing",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003267025000819",
+  "md5": "30add8034fb6ccddd92f496822cb0c4a",
+  "pid": "1-s2.0-S0003267025000819-main.pdf"
+ },
+ {
+  "id": "296442",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpba.2023.115305",
+  "title": "Development of a robust HTRF assay with USP7 full length protein expressed in E. coli prokaryotic system for the identification of USP7 inhibitors",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0731708523000742",
+  "md5": "4325994c36e9a639ef73f42886cb11a9",
+  "pid": "1-s2.0-S0731708523000742-main.pdf"
+ },
+ {
+  "id": "296440",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfluchem.2024.110352",
+  "title": "Dimerization of perfluoropropyl vinyl ether during the pyrolysis of hexafluoropropylene oxide dimer",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S002211392400112X",
+  "md5": "0e998ca26470c3e4e3294602854f616d",
+  "pid": "1-s2.0-S002211392400112X-main.pdf"
+ },
+ {
+  "id": "296437",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.148505",
+  "title": "Directed optimization and generation of yeast promoter sequences driven by deep learning",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025090622",
+  "md5": "e3f5181d478de53ee84ca771da24cead",
+  "pid": "1-s2.0-S0141813025090622-main.pdf"
+ },
+ {
+  "id": "296435",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bioorg.2025.108786",
+  "title": "Discovery and synthesis of azepinoindoles as novel hCYP1B1 inhibitors with AhR-independent anticancer activity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0045206825006662",
+  "md5": "f45f58c9a17ad5989a6000aeafb2c9c1",
+  "pid": "1-s2.0-S0045206825006662-main.pdf"
+ },
+ {
+  "id": "296434",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmc.2025.118501",
+  "title": "Discovery of thiosemicarbazone derivatives as promising SARS-CoV-2 Mpro inhibitors by spectroscopy and microscale thermophoresis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0968089625004420",
+  "md5": "2e61ddc1415709cf1b5b241913a39ea0",
+  "pid": "1-s2.0-S0968089625004420-main.pdf"
+ },
+ {
+  "id": "296426",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.intermet.2025.108871",
+  "title": "Dynamic compression behavior of single-phase and dual-phase Fe-rich medium-entropy alloys",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0966979525002365",
+  "md5": "d2f5cda45883a51269a6f4ec1dd98592",
+  "pid": "1-s2.0-S0966979525002365-main.pdf"
+ },
+ {
+  "id": "296425",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.182653",
+  "title": "Effect of Fe and Ti solute concentrations on the double-peak hardening behavior of Cu-Fe-Ti alloys",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825042148",
+  "md5": "4459b1110fa89d3e44dd0ef2aef58e42",
+  "pid": "1-s2.0-S0925838825042148-main.pdf"
+ },
+ {
+  "id": "296424",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.185067",
+  "title": "Effect of Fe/Mn microalloying on the microstructural evolution and performance of Cu-Fe-Mn-P alloys",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825066319",
+  "md5": "e5c70713df05f62e1aea74d4dc61967a",
+  "pid": "1-s2.0-S0925838825066319-main.pdf"
+ },
+ {
+  "id": "296422",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molliq.2024.125040",
+  "title": "Effect of Tween and CTAB surfactants on aqueous solubility of the silibinin anticancer drug studied by using physicochemical properties at 310.15 K",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167732224010961",
+  "md5": "92907cfc52916b2113a58c2e64acb3a2",
+  "pid": "1-s2.0-S0167732224010961-main.pdf"
+ },
+ {
+  "id": "296419",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2025.150687",
+  "title": "Effect of low ethanol blending ratio on the auto-ignition characteristics of ammonia: Kinetics development and analysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319925036869",
+  "md5": "037558312fb6fcb17ab59f9e2861a46f",
+  "pid": "1-s2.0-S0360319925036869-main.pdf"
+ },
+ {
+  "id": "296418",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.182990",
+  "title": "Effect of quenching temperature on the microstructure and mechanical behavior of Mg-Sc alloy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825045517",
+  "md5": "0ed7a6764ecf742a2cf776433c5888d8",
+  "pid": "1-s2.0-S0925838825045517-main.pdf"
+ },
+ {
+  "id": "296417",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2023.136330",
+  "title": "Effect of the supramolecular material constructed by organic cations and AgI as a catalyst for tetracycline treatment",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286023014205",
+  "md5": "86731b3033417be658fd2740ebde9e3f",
+  "pid": "1-s2.0-S0022286023014205-main.pdf"
+ },
+ {
+  "id": "296410",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.139231",
+  "title": "Electrooxidation of polyacrylamide in the wastewater from molybdenum ore flotation: Resurrecting molybdenite floatability and degradation mechanism",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775725031358",
+  "md5": "360d33770fdf46f573a19a5dde3be58a",
+  "pid": "1-s2.0-S0927775725031358-main.pdf"
+ },
+ {
+  "id": "296409",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chroma.2025.466441",
+  "title": "Electrospun polyacrylonitrile/graphene oxide nanofibers membrane followed by HPLC-MS/MS for the separation and determination of benzimidazole fungicides",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S002196732500785X",
+  "md5": "ac96e26d8620b0104f159287d40cfda9",
+  "pid": "1-s2.0-S002196732500785X-main.pdf"
+ },
+ {
+  "id": "296407",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2024.160837",
+  "title": "Enhanced C-C coupling in CO2 electroreduction on dual-atom catalysts modified by bridge O/OH",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433224015502",
+  "md5": "1e815b033cf4741608600670b7ece7f8",
+  "pid": "1-s2.0-S0169433224015502-main.pdf"
+ },
+ {
+  "id": "296405",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.185191",
+  "title": "Enhanced ionic transport and interfacial properties of Sr/Gd Co-doped CeO2 electrolytes for IT-SOFCs",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825067556",
+  "md5": "beb50cf9edd88e82438292949ec24d8a",
+  "pid": "1-s2.0-S0925838825067556-main.pdf"
+ },
+ {
+  "id": "296400",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2023.126240",
+  "title": "Exploring thyroxine binding globulin structural changes and its release from human hepatoblastoma cells upon interaction with silica particles: A prelude to unrevealing the mechanism of thyroid hormone dysregulation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813023031367",
+  "md5": "e64daecab03cb80283950a447a01441f",
+  "pid": "1-s2.0-S0141813023031367-main.pdf"
+ },
+ {
+  "id": "296398",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.163589",
+  "title": "Fabrication of porous copolymer with ionized carboxyl groups for highly efficient removal of crystal violet from water",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225013042",
+  "md5": "a2b5e55be0495b53d206ae916e4e1345",
+  "pid": "1-s2.0-S0169433225013042-main.pdf"
+ },
+ {
+  "id": "296391",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.165579",
+  "title": "Functional polyvinylidene fluoride molecularly imprinted membranes with high stability and selectivity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225032969",
+  "md5": "54414f6ed669b76f610ae90de5a938c3",
+  "pid": "1-s2.0-S0169433225032969-main.pdf"
+ },
+ {
+  "id": "296385",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.memsci.2025.124516",
+  "title": "High-performance mixed matrix membranes for C3H6/C3H8 separation unlocked by a 3D-interconnected metal-organic framework",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0376738825008294",
+  "md5": "0a98a01f4314eebe3a17d9ba459dccee",
+  "pid": "1-s2.0-S0376738825008294-main.pdf"
+ },
+ {
+  "id": "296382",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2025.138125",
+  "title": "Highly dispersed copper supported on MCM-41 for highly selective hydrogenation of isophorone to 3,3,5-trimethylcyclohexanone",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S092777572502028X",
+  "md5": "64a53234cd77548d12f78b84da749ba7",
+  "pid": "1-s2.0-S092777572502028X-main.pdf"
+ },
+ {
+  "id": "296381",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.165521",
+  "title": "Highly efficient fabrication of monolayer Ca2Nb3O10 optimized spin coating for flexible pressure sensors",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225032386",
+  "md5": "e29164be02cdb0900d674b5fed47a57b",
+  "pid": "1-s2.0-S0169433225032386-main.pdf"
+ },
+ {
+  "id": "296379",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cplett.2024.141496",
+  "title": "Hydrogen penetration mechanism through C and CH pre-covered Pd(100) surface: A density functional theory study",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S000926142400438X",
+  "md5": "3bcb75b4c555f571bafd972000ccdd74",
+  "pid": "1-s2.0-S000926142400438X-main.pdf"
+ },
+ {
+  "id": "296360",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tet.2023.133489",
+  "title": "Influence of monohalogenated flexible tails on the mesomorphism of triphenylene-based discotics",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0040402023002880",
+  "md5": "7375b189b21d9a961451f326232bfe3f",
+  "pid": "1-s2.0-S0040402023002880-main.pdf"
+ },
+ {
+  "id": "296359",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.146966",
+  "title": "Injectable multifunctional modified sodium alginate microparticles for rapid hemostasis and wound repair following endoscopic submucosal dissection",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025075233",
+  "md5": "c34f046890ccab00d7ce937405d16bd7",
+  "pid": "1-s2.0-S0141813025075233-main.pdf"
+ },
+ {
+  "id": "296356",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.nantod.2025.102934",
+  "title": "Integrated DNA logic gate-driven cell membrane confined amplification system for imaging cellular events",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1748013225003068",
+  "md5": "fa124e2e23e97d2d5e7ca81082691d63",
+  "pid": "1-s2.0-S1748013225003068-main.pdf"
+ },
+ {
+  "id": "296348",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.147954",
+  "title": "Investigation of meat proteins in different species by sequential window acquisition of all theoretical mass spectra-based proteomics and its application in meat adulteration",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025085113",
+  "md5": "a462d9b27d736e28c42606e1bca70906",
+  "pid": "1-s2.0-S0141813025085113-main.pdf"
+ },
+ {
+  "id": "296342",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jmat.2025.101050",
+  "title": "Laser driven 2D heterostructure nanocomposite membranes with bimodal photothermal and photodynamic functions",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2352847825000401",
+  "md5": "b44a62890927f0da9ded16e253fb69b8",
+  "pid": "1-s2.0-S2352847825000401-main.pdf"
+ },
+ {
+  "id": "296339",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.micromeso.2025.114003",
+  "title": "Low-cost organosilane-assisted synthesis of hierarchical SAPO-34 with improved stability in methanol-to-olefins reaction",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1387181125005189",
+  "md5": "239fc2de95b010b6ee66f49fba441464",
+  "pid": "1-s2.0-S1387181125005189-main.pdf"
+ },
+ {
+  "id": "296337",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2025.142233",
+  "title": "Machine learning-based virtual screening of reversible inhibitors of LSD1 and binding mechanisms study",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286025009172",
+  "md5": "bb037afb17d252faea6d2227ae5dbf53",
+  "pid": "1-s2.0-S0022286025009172-main.pdf"
+ },
+ {
+  "id": "296336",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.116417",
+  "title": "Machine learning-enhanced SERS detection of carbapenem-resistant enterobacteriaceae using PEI-magnetic enrichment and Au@Ag core-shell nanoprobe",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25037671",
+  "md5": "fb10bf08dd2404628566f972f07f0053",
+  "pid": "1-s2.0-S0026265X25037671-main.pdf"
+ },
+ {
+  "id": "296333",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jct.2025.107565",
+  "title": "Measurement and molecular simulation of the solubility properties of cyclododecanone in binary solvents",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021961425001193",
+  "md5": "8e01fc325335ec89df289ed9529965cc",
+  "pid": "1-s2.0-S0021961425001193-main.pdf"
+ },
+ {
+  "id": "296328",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2025.151816",
+  "title": "Mesoporous silica-supported nickel: A stable and efficient catalyst for the synthesis of tetrahydrofurfuryl alcohol",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319925048190",
+  "md5": "711f0fb08b00b384c9adc731a8025f44",
+  "pid": "1-s2.0-S0360319925048190-main.pdf"
+ },
+ {
+  "id": "296325",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.184477",
+  "title": "Microstructural evolution and mechanical properties of hot-extruded Mg-4.6Li-3.5Al-2.1Sn-0.4Ce alloy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825060396",
+  "md5": "82797a350a25e4199c7cab6c88a80871",
+  "pid": "1-s2.0-S0925838825060396-main.pdf"
+ },
+ {
+  "id": "296322",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.susc.2024.122508",
+  "title": "Modeling the phase boundaries in Cu(100)-(2 √ 2 x √ 2)R45 °-O missing row reconstruction (MRR) structure",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0039602824000591",
+  "md5": "b6e0edc734cae7a2dfab92313691265c",
+  "pid": "1-s2.0-S0039602824000591-main.pdf"
+ },
+ {
+  "id": "296320",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpowsour.2025.238285",
+  "title": "Modulating the solvation structure of deep eutectic solvent electrolyte with customized MOF nanosheet for high-performance lithium metal battery",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0378775325021214",
+  "md5": "88a940ae0f427b30e99c505806e26e50",
+  "pid": "1-s2.0-S0378775325021214-main.pdf"
+ },
+ {
+  "id": "296319",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chemphys.2025.112709",
+  "title": "Modulation of electronic properties and band alignment in h-BN/diamond heterostructures with various dopants under biaxial strain",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0301010425001107",
+  "md5": "95697c1d069cdc02b69f423cb04cd676",
+  "pid": "1-s2.0-S0301010425001107-main.pdf"
+ },
+ {
+  "id": "296317",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.163181",
+  "title": "Molecular dynamics and experimental study of the dewetting behaviors of discontinuous metal films",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225008955",
+  "md5": "45953953c69fdb31cbd1f08b2785ae98",
+  "pid": "1-s2.0-S0169433225008955-main.pdf"
+ },
+ {
+  "id": "296315",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2025.128803",
+  "title": "Multifunctional highly stretchable hydrogel with dual strain/temperature sensing for cardiac rehabilitation training",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S003238612500789X",
+  "md5": "aedcc2f30d5dfd09c6c00fb3ca744f8d",
+  "pid": "1-s2.0-S003238612500789X-main.pdf"
+ },
+ {
+  "id": "296314",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.139311",
+  "title": "Multilayer CuO/CuMoO4/MoS2 nanoflowers: Microwave-assisted MoS2 derivation and efficient H2S detection",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S092540052502088X",
+  "md5": "d95a50eb1bb6d74139694b82c8604ecc",
+  "pid": "1-s2.0-S092540052502088X-main.pdf"
+ },
+ {
+  "id": "296313",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2025.128940",
+  "title": "Nacre-mimetic PVA/MXene/CNTs films via covalent crosslinking: Synergistic mechanics, photothermal conversion, and radiative cooling for sustainable energy applications",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0032386125009267",
+  "md5": "44dea1795f635a404f29a056949eb02d",
+  "pid": "1-s2.0-S0032386125009267-main.pdf"
+ },
+ {
+  "id": "296312",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bioorg.2023.106828",
+  "title": "Native-compound-Coupled Affinity Matrix (NCAM) in target identification and validation of bioactive compounds: Application, mechanism and outlooks",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0045206823004893",
+  "md5": "06eac60ea09eb2520b5b6627cbc4fd4a",
+  "pid": "1-s2.0-S0045206823004893-main.pdf"
+ },
+ {
+  "id": "296310",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.164993",
+  "title": "New insights on the water-oxygen corrosion behavior and mechanism of ZrB2: DFT/AIMD calculations and experimental analysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225027096",
+  "md5": "09f83b7a15af5074482d2591319de815",
+  "pid": "1-s2.0-S0169433225027096-main.pdf"
+ },
+ {
+  "id": "296309",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.183255",
+  "title": "NiS hierarchical nano-microspheres for high-sensitive ethanol gas sensing",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825048169",
+  "md5": "f4ed14232ecc4fff23c9bacfcc7735c6",
+  "pid": "1-s2.0-S0925838825048169-main.pdf"
+ },
+ {
+  "id": "296300",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jchromb.2025.124748",
+  "title": "One-step synthesis of high-hydrophilic hydrothermal spheres for N-glycosylated peptides and exosomes analysis in diabetes serum",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1570023225003022",
+  "md5": "aba38338e03a99dcd28e2e090bb23aa0",
+  "pid": "1-s2.0-S1570023225003022-main.pdf"
+ },
+ {
+  "id": "296299",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.electacta.2024.145354",
+  "title": "One-step synthesis of spherical Al3Ta alloy powder by electrolyzing solid Ta2O5 in molten fluorides",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0013468624015901",
+  "md5": "5c77c30ec7cfb893aee23707391cf009",
+  "pid": "1-s2.0-S0013468624015901-main.pdf"
+ },
+ {
+  "id": "296294",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tet.2023.133418",
+  "title": "Palladium-catalyzed cross-coupling of terminal alkynes with di-tert- butyl dicarbonate: Facile access to functionalized alkynoate esters",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0040402023002077",
+  "md5": "6e17b5dc692bedce283962d6e1f2f607",
+  "pid": "1-s2.0-S0040402023002077-main.pdf"
+ },
+ {
+  "id": "296293",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.184660",
+  "title": "Particle size-induced microstructural evolution and performance enhancement: A densification synergy in EBCO superconducting targets",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S092583882506222X",
+  "md5": "48d722275bf569100d6a332ecb65a0d8",
+  "pid": "1-s2.0-S092583882506222X-main.pdf"
+ },
+ {
+  "id": "296291",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.139122",
+  "title": "Penny-per-test colorimetric kit for rapid on-site detection of edible oil spoilage to prevent waste and health risks",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525018982",
+  "md5": "b6b1d86e1bbb1cffc0b9159dfcc8231d",
+  "pid": "1-s2.0-S0925400525018982-main.pdf"
+ },
+ {
+  "id": "296287",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2024.160374",
+  "title": "Photocatalytic efficiency of K-TiO2 for air pollutant treatment: Synergistic effect of NO and acetaldehyde by K incorporation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433224010870",
+  "md5": "f56fe630c7374a2911c245c039fea868",
+  "pid": "1-s2.0-S0169433224010870-main.pdf"
+ },
+ {
+  "id": "296283",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfca.2025.108493",
+  "title": "Polypropylene fiber-supported liquid extraction coupled with GC-MS/MS for the convenient and sensitive determination of organochlorine pesticide residues in edible oils",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0889157525013092",
+  "md5": "22286bd8b0015146ac4773bda480f378",
+  "pid": "1-s2.0-S0889157525013092-main.pdf"
+ },
+ {
+  "id": "296282",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/S1872-2067(25)64801-7",
+  "title": "Precursor and dual-template assisted synthesis of highly acidic SAPO-17 molecular sieve: Excellent NH3-SCR activity of Cu-exchanged forms",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1872206725648017",
+  "md5": "187bb3bb386babba207f3d732d740030",
+  "pid": "1-s2.0-S1872206725648017-main.pdf"
+ },
+ {
+  "id": "296277",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.165374",
+  "title": "Preparation of electron-beam cured hyperbranched polyurethane acrylate coatings",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225030910",
+  "md5": "0382a87644bfaa2888fd675823235688",
+  "pid": "1-s2.0-S0169433225030910-main.pdf"
+ },
+ {
+  "id": "296272",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.foodchem.2025.145717",
+  "title": "Protective role of cooked rice modified with complex enzymes on chronic disease in mice",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0308814625029681",
+  "md5": "9b7d2c98bd02f0647c9682b05ef9f291",
+  "pid": "1-s2.0-S0308814625029681-main.pdf"
+ },
+ {
+  "id": "296270",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2025.153061",
+  "title": "Quasi-fuel-cell type gas sensor incorporating Pt/Nafion/MnO2 composite membrane electrode for hydrogen detection at room temperature",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319925060641",
+  "md5": "0d8582aa2a83f2aafa20530f138b4bd4",
+  "pid": "1-s2.0-S0360319925060641-main.pdf"
+ },
+ {
+  "id": "296268",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.surfin.2025.106000",
+  "title": "Redefining surface dynamics: Advanced insights into nanoindentation and morphological variability of foamed polyurethane",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468023025002603",
+  "md5": "b6b745d74c3363500922640950214690",
+  "pid": "1-s2.0-S2468023025002603-main.pdf"
+ },
+ {
+  "id": "296266",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.114304",
+  "title": "Regulatory CD@ZIF-based tri-signal fluorescent-scattering ratio sensor for intelligent on-site monitoring of tetracycline",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25016583",
+  "md5": "f298a9f9258f7df39c71b5cfc790564d",
+  "pid": "1-s2.0-S0026265X25016583-main.pdf"
+ },
+ {
+  "id": "296257",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2024.136224",
+  "title": "Retrotransposon involves in photoperiodic spermatogenesis in Brandt's voles (Lasiopodomys brandtii) by co-transcription with flagellar genes",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813024070338",
+  "md5": "24c8625c99661e7c848fda6258f11cbd",
+  "pid": "1-s2.0-S0141813024070338-main.pdf"
+ },
+ {
+  "id": "296254",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmcl.2025.130360",
+  "title": "Scaffold-leaping optimization of naphthoquinone derivatives as ferroptosis inducer against non-small lung cancer",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960894X25002690",
+  "md5": "413219bae830f0ef63706fdd5f23970d",
+  "pid": "1-s2.0-S0960894X25002690-main.pdf"
+ },
+ {
+  "id": "296250",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aca.2025.343729",
+  "title": "Self-powered chip based on exonuclease-driven amplification for portable cancer biomarker detection",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003267025001230",
+  "md5": "72547f6b79543ae7048e79c48fc40df6",
+  "pid": "1-s2.0-S0003267025001230-main.pdf"
+ },
+ {
+  "id": "296248",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chroma.2025.466315",
+  "title": "Sensitive analysis of tyrosine kinase inhibitors in plasma using polypropylene fabric-solid phase extraction combined with liquid chromatography-tandem mass spectrometry",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021967325006594",
+  "md5": "a3dc833f5b159d8d22f5c249aa33728e",
+  "pid": "1-s2.0-S0021967325006594-main.pdf"
+ },
+ {
+  "id": "296247",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ab.2024.115556",
+  "title": "Sensitive and effective method with 96-well plate for determination of levamlodipine in human plasma using LC-MS/MS",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003269724001003",
+  "md5": "7b34fc49ab057d437eba5e6d833ca97c",
+  "pid": "1-s2.0-S0003269724001003-main.pdf"
+ },
+ {
+  "id": "296245",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apradiso.2025.111899",
+  "title": "Sequential synthesis of [<SUP>18</SUP>F]FDG and [<SUP>68</SUP>Ga]Ga-DOTA-TATE on the AllinOne radiosynthesizer: A fully automated dual-radionuclides protocol with single cassette and reagents loading",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0969804325002441",
+  "md5": "5a796106f97c967ae86ed054698f0b5b",
+  "pid": "1-s2.0-S0969804325002441-main.pdf"
+ },
+ {
+  "id": "296243",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.138907",
+  "title": "Simultaneous detection of SF6 decomposition CO and OCS in overlapping absorption bands using a nonlinear inversion algorithm",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525016831",
+  "md5": "f439ff99ae58f26bd1c4d9e043fcb079",
+  "pid": "1-s2.0-S0925400525016831-main.pdf"
+ },
+ {
+  "id": "296240",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jssc.2025.125554",
+  "title": "Size-controllable synthesis of uniform submicron Sn-Beta from tailorable seeds",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022459625003780",
+  "md5": "e3b7889d5ee60b74bb01785930d81ab6",
+  "pid": "1-s2.0-S0022459625003780-main.pdf"
+ },
+ {
+  "id": "296239",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.138303",
+  "title": "Smartphone-assisted point of care testing for colorectal cancer screening: Application of split light-up aptamer for DNA methylation detection",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525010792",
+  "md5": "521fc67c50d193b5015850b6ac91ffb7",
+  "pid": "1-s2.0-S0925400525010792-main.pdf"
+ },
+ {
+  "id": "296236",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.165097",
+  "title": "Solvent-mediated morphology engineering of hydrangea-like ZnIn2S4 for highly-enhanced visible-light photocatalytic degradation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225028132",
+  "md5": "12fa72cdc548dcc77787955ee5c07634",
+  "pid": "1-s2.0-S0169433225028132-main.pdf"
+ },
+ {
+  "id": "296233",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2024.114306",
+  "title": "Strategic design and facile synthesis of porous hyper-cross-linked phosphonium bromide microspheres for catalyzing CO2 conversion to cyclic carbonates",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468823124004899",
+  "md5": "d7331987a0b5b53825e4d957adca0c6e",
+  "pid": "1-s2.0-S2468823124004899-main.pdf"
+ },
+ {
+  "id": "296227",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2025.115591",
+  "title": "Study on the role of crystal face on aldol condensation over LDH-derived mixed oxides",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S246882312500776X",
+  "md5": "0936192c8a76d17ae760925aa550b7a3",
+  "pid": "1-s2.0-S246882312500776X-main.pdf"
+ },
+ {
+  "id": "296226",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2025.128970",
+  "title": "Sub-microcellular isotactic polypropylene foams with open-cell structure achieved through pretreatment during batch foaming",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0032386125009565",
+  "md5": "df360e086b112377e8ab094f3792f906",
+  "pid": "1-s2.0-S0032386125009565-main.pdf"
+ },
+ {
+  "id": "296221",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2024.161531",
+  "title": "Surface chemo-mechanics coupling of MnO2/Au layered composites under electrochemical environment",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433224022463",
+  "md5": "de9ff39669cbadc562bef8fe005e6d13",
+  "pid": "1-s2.0-S0169433224022463-main.pdf"
+ },
+ {
+  "id": "296217",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.162485",
+  "title": "Synergistic effect of multi-active site (Pd/PdO/Ni/NiO/Ni2O3) formed in situ on the surface of graphene oxide supported bi-Schiff-base hetero-organometallic Pd(II)/Ni(II) nano-sheet",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225001989",
+  "md5": "0f5c7a7e70dcbff4080ee13b8a5853dc",
+  "pid": "1-s2.0-S0169433225001989-main.pdf"
+ },
+ {
+  "id": "296216",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.138807",
+  "title": "Synergistic effect of protonation and oxygen vacancies in polyoxometalates for ppb-level NO2 detection at subzero temperatures",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525015837",
+  "md5": "a4b6839093df73ad2bcc8c6afc52f919",
+  "pid": "1-s2.0-S0925400525015837-main.pdf"
+ },
+ {
+  "id": "296215",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.surfin.2025.106344",
+  "title": "Synergy coupling of ternary CoNiFe-layered double hydroxides nanocages on CN-CNTs photoanodes for enhanced photoelectrochemical water oxidation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468023025006030",
+  "md5": "6e9a3625dc368ac97e76042907be848a",
+  "pid": "1-s2.0-S2468023025006030-main.pdf"
+ },
+ {
+  "id": "296206",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cplett.2024.141365",
+  "title": "Synthesis of dual hollow sphere C@SnO 2 anode for enhanced lithium storage",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0009261424003026",
+  "md5": "784cfca89861189f4cac27e87c5e3039",
+  "pid": "1-s2.0-S0009261424003026-main.pdf"
+ },
+ {
+  "id": "296205",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tet.2025.134593",
+  "title": "Synthesis of pyrazolo[1,2-a]cinnolinone via copper-catalyzed 6-endo-dig cyclization",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0040402025001498",
+  "md5": "6090ddc07b1af4d9420dfbe9e839a568",
+  "pid": "1-s2.0-S0040402025001498-main.pdf"
+ },
+ {
+  "id": "296204",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.eurpolymj.2025.114336",
+  "title": "Targeted synthesis of a high-stability anionic cyclophosphazene-based porous organic polymer for highly efficient remediation of methylene blue",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S001430572500624X",
+  "md5": "9cf350b5ef5b8599fd2cfa08aca5169a",
+  "pid": "1-s2.0-S001430572500624X-main.pdf"
+ },
+ {
+  "id": "296190",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2025.129119",
+  "title": "The driving effect of solvent layer dissociation on the formation of UHMWPE shish-kebab films",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S003238612501105X",
+  "md5": "11a78892474310b487a0b52f6dc5ddd5",
+  "pid": "1-s2.0-S003238612501105X-main.pdf"
+ },
+ {
+  "id": "296187",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijoes.2025.101117",
+  "title": "The effect of graphene concentration on mechanical properties of electrodeposited Al-Graphene composite coating",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1452398125001920",
+  "md5": "60c7b763f4b5a86e526a49723c9808a7",
+  "pid": "1-s2.0-S1452398125001920-main.pdf"
+ },
+ {
+  "id": "296186",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcat.2025.116391",
+  "title": "The terphenyl phosphine TRuPhos: a novel and efficient ligand for the palladium-catalyzed arylation of hindered primary alkyl amines with mechanism clarification",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021951725004579",
+  "md5": "8a16c13ac9680fb73ea33d37549ad2de",
+  "pid": "1-s2.0-S0021951725004579-main.pdf"
+ },
+ {
+  "id": "296185",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.146097",
+  "title": "The transcription factor Y-box binding protein 3 contributes to mechanical allodynia and anxiety-like behavior in trigeminal neuralgia by transcriptionally triggering period circadian regulator 1 in primary sensory neurons",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025066541",
+  "md5": "7c045064bd192e40b93cd292a8a11764",
+  "pid": "1-s2.0-S0141813025066541-main.pdf"
+ },
+ {
+  "id": "296174",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.talanta.2025.128337",
+  "title": "Two functionalized metal-organic frameworks with multiple hydrogen-bond donors as SALDI-TOF-MS matrix for sensitive and rapid determination of pesticides",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0039914025008276",
+  "md5": "4a578c57f6ff5fade83669a85d2625db",
+  "pid": "1-s2.0-S0039914025008276-main.pdf"
+ },
+ {
+  "id": "296172",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jphotochem.2023.114948",
+  "title": "Ultrafast dynamic processes and nonlinear optical properties of Platinum (II) fluoren-acetylides",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1010603023004136",
+  "md5": "1e2e29dcc47322d8e418fee5a7ea65f9",
+  "pid": "1-s2.0-S1010603023004136-main.pdf"
+ },
+ {
+  "id": "296167",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2024.114538",
+  "title": "Uncovering a general oxidation model of nitrogen-containing oxidant in N-heterocyclic carbene (NHC) catalyzed oxidative reactions of aldehydes",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S246882312400720X",
+  "md5": "58b4380dde39a31f140d85add16c75bf",
+  "pid": "1-s2.0-S246882312400720X-main.pdf"
+ },
+ {
+  "id": "296166",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.183102",
+  "title": "Uncovering the competition between comproportionation and direct reduction in the sodiothermic reaction of K2TaF7",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825046638",
+  "md5": "a9e4095d750c9c2418900deb3979bb06",
+  "pid": "1-s2.0-S0925838825046638-main.pdf"
+ },
+ {
+  "id": "296162",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2024.159828",
+  "title": "Unveiling mechanisms in Cu2O-catalyzed electroreduction of CO2 through theoretical resolution using periodic boundary and saturation cluster models",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433224005415",
+  "md5": "4a06632e0d450dd07ad545d168911d97",
+  "pid": "1-s2.0-S0169433224005415-main.pdf"
+ },
+ {
+  "id": "296161",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.molstruc.2025.141429",
+  "title": "Virtual screening and binding mechanism of allosteric inhibitors based on SHP2E76A",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0022286025001188",
+  "md5": "3cc50ff2057f9e4cac780017f8a6ac11",
+  "pid": "1-s2.0-S0022286025001188-main.pdf"
+ },
+ {
+  "id": "296158",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ultsonch.2025.107687",
+  "title": "W and Mo separation from waste W-Mo alloy by an integrated ultrasound acid leaching-alkali leaching-Solvent extraction process",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1350417725004663",
+  "md5": "ac802053660ce3a09ddbc39567aa3f3b",
+  "pid": "1-s2.0-S1350417725004663-main.pdf"
+ },
+ {
+  "id": "296157",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.138660",
+  "title": "When aggregation-induced emission meets human serum albumin: Rational design of supramolecular fluorescent probe for rapid visualization of gossypol in real food",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525014364",
+  "md5": "364c52bbbda093b78617b1beeb83a654",
+  "pid": "1-s2.0-S0925400525014364-main.pdf"
+ },
+ {
+  "id": "296154",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tet.2025.134868",
+  "title": "cis-diphosphine ethene ligands enable Cu-catalyzed dehydration of primary amides to nitriles",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0040402025004247",
+  "md5": "f7afc2d56f9f31189d27456580dd65d8",
+  "pid": "1-s2.0-S0040402025004247-main.pdf"
+ },
+ {
+  "id": "296153",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.tet.2024.133982",
+  "title": "1,1,1,3,3,3-Hexafluoro-2-propanol (HFIP)-promoted regiospecific 1,6-hydroarylation of para-quinone methides with N-heteroarenes: Synthesis of unsymmetrical triarylmethanes",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0040402024001625",
+  "md5": "9f3a3dc21b842adeb5483f6bfa55dc2f",
+  "pid": "1-s2.0-S0040402024001625-main.pdf"
+ },
+ {
+  "id": "296151",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.electacta.2025.147362",
+  "title": "3D spatial-confined construction of selenide shuttle barriers with self-healing capability for high-energy mg batteries",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0013468625017190",
+  "md5": "68435c269576732982b184fba8cbb2fa",
+  "pid": "1-s2.0-S0013468625017190-main.pdf"
+ },
+ {
+  "id": "296143",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.182440",
+  "title": "A high Cube texture developed in pure copper under a low thermal driving force",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825040010",
+  "md5": "9e84d84431962cb1c8867dd8d46cb8bd",
+  "pid": "1-s2.0-S0925838825040010-main.pdf"
+ },
+ {
+  "id": "296142",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.116450",
+  "title": "A methylene blue-based tri-mode \"turn-on\" molecular probe for detecting Hypochlorous acid in human serum",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25038007",
+  "md5": "04aa5c83c8258c68fc296b4f7d043b6c",
+  "pid": "1-s2.0-S0026265X25038007-main.pdf"
+ },
+ {
+  "id": "296140",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jre.2024.03.004",
+  "title": "A new method for preparation of RE2(CO3)3 by multi-membrane electroconversion",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1002072124000711",
+  "md5": "18891f69862b89b364a2293f28839a31",
+  "pid": "1-s2.0-S1002072124000711-main.pdf"
+ },
+ {
+  "id": "296139",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2024.175440",
+  "title": "A quasi in-situ investigation of the cell to dendrite transition using Ni-W single crystal alloy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838824020279",
+  "md5": "20f255ad2cc6538996cbe0c005180ad2",
+  "pid": "1-s2.0-S0925838824020279-main.pdf"
+ },
+ {
+  "id": "296138",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.115555",
+  "title": "A signal-off photoelectrochemical aptasensor based on WO3/CdIn2S4 for the sensitive detection of lincomycin",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25029030",
+  "md5": "381d647c1c2d0184937c9f08a2163c7c",
+  "pid": "1-s2.0-S0026265X25029030-main.pdf"
+ },
+ {
+  "id": "296137",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.fochx.2025.102379",
+  "title": "A simple and effective method to enhance the level of gamma-aminobutyric acid in Chinese yam tubers while preserving its original appearance",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2590157525002263",
+  "md5": "8042b47b9cf0eb24610da3c432d97b0e",
+  "pid": "1-s2.0-S2590157525002263-main.pdf"
+ },
+ {
+  "id": "296136",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.chroma.2025.465988",
+  "title": "A simplified one-pot derivatization/magnetic solid-phase extraction with integrated pH adjustment strategy coupled with liquid chromatography-fluorescence detection for fatty aldehyde analysis",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S002196732500336X",
+  "md5": "9fd9bde8f52aa24272de18c6240bfc9c",
+  "pid": "1-s2.0-S002196732500336X-main.pdf"
+ },
+ {
+  "id": "296131",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.138367",
+  "title": "Activatable supramolecular fluorescence probe for contrast-enhanced co-localization imaging of tumor-resident intracellular bacteria",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525011438",
+  "md5": "805c1ef7bf48c2c4aa6482c889d758a5",
+  "pid": "1-s2.0-S0925400525011438-main.pdf"
+ },
+ {
+  "id": "296129",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2024.135286",
+  "title": "An effective strategy to construct pH-responsive microemulsion for cobalt recovery and its responsive mechanisms",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775724021502",
+  "md5": "f1a05acc8e12899c4d345351135275c9",
+  "pid": "1-s2.0-S0927775724021502-main.pdf"
+ },
+ {
+  "id": "296127",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.114944",
+  "title": "An immunobiosensor based on chelate-ring-containing iridium(III) complexes for electrochemiluminescence determination of TNF-α",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25022921",
+  "md5": "1a47da10b7036dfe9a8ea3dc69bd943e",
+  "pid": "1-s2.0-S0026265X25022921-main.pdf"
+ },
+ {
+  "id": "296120",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aca.2024.342613",
+  "title": "AuNi bimetallic aerogel with ultra-high stability applied in smart and portable biosensing",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003267024004148",
+  "md5": "4d98ec3bdf089c7221f26c73b3d59fe1",
+  "pid": "1-s2.0-S0003267024004148-main.pdf"
+ },
+ {
+  "id": "296118",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.eurpolymj.2024.113126",
+  "title": "BaTiO3 catalyzed ultrasonic driven piezoelectric induced miniemulsion atom transfer radical polymerization (Piezo-miniATRP)",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0014305724003872",
+  "md5": "0df00b0eec0c60e5645c575d3f1e8de5",
+  "pid": "1-s2.0-S0014305724003872-main.pdf"
+ },
+ {
+  "id": "296116",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.aca.2024.343540",
+  "title": "Bifunctional probe propelling multipath strand displacement amplification tandem CRISPR/Cas12a for ultrasensitive and robust assay of DNA methyltransferase activity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0003267024013412",
+  "md5": "f401c1c05156ec404ca719ebfa5832e9",
+  "pid": "1-s2.0-S0003267024013412-main.pdf"
+ },
+ {
+  "id": "296114",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jcis.2025.137940",
+  "title": "Bimetallic nanoparticles encapsulated within a graphitized nitrogen-doped carbon shell for efficient pH-universal electrochemical carbon dioxide reduction",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0021979725013311",
+  "md5": "cd3a1fa075a416e53757a6802c2cdcef",
+  "pid": "1-s2.0-S0021979725013311-main.pdf"
+ },
+ {
+  "id": "296113",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jelechem.2025.119254",
+  "title": "Boosting photoelectrochemical detection accuracy of trace H2O2 by inducing holes accumulation on the MnOx/WO3",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1572665725003285",
+  "md5": "347705a39d6b05f5981463d576090669",
+  "pid": "1-s2.0-S1572665725003285-main.pdf"
+ },
+ {
+  "id": "296108",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.138808",
+  "title": "Carbon derived hollow α-Fe2O3 nanochains via high-efficiency microwave-assisted synthesis for excellent formaldehyde detection",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525015849",
+  "md5": "3a01f7c3e30eeb9cdb0d8a1dadfaae1e",
+  "pid": "1-s2.0-S0925400525015849-main.pdf"
+ },
+ {
+  "id": "296107",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.eurpolymj.2025.114335",
+  "title": "Carbon dots catalyzed efficient near infrared light induced atom transfer radical polymerization in aqueous media",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0014305725006238",
+  "md5": "8a9af2194e7cdb08e36c444ab4dc51eb",
+  "pid": "1-s2.0-S0014305725006238-main.pdf"
+ },
+ {
+  "id": "296106",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.182389",
+  "title": "Carbon dots-derived amorphous carbon network stabilized Ru/MoO2 hetero-structure for boosting hydrogen evolution reaction in alkaline media",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825039507",
+  "md5": "713a016056cba6abea2e0130e46c3246",
+  "pid": "1-s2.0-S0925838825039507-main.pdf"
+ },
+ {
+  "id": "296105",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2024.161849",
+  "title": "Carboxylic acid-assisted hydration for the preparation of mesoporous magnesium hydroxide/magnesium oxide with ultra-high adsorption performance and selective adsorption: Experiments and DFT investigations",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433224025650",
+  "md5": "08acb8dc91298ae56d27824453e5db63",
+  "pid": "1-s2.0-S0169433224025650-main.pdf"
+ },
+ {
+  "id": "296104",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apradiso.2023.111162",
+  "title": "Case report of radiotherapy combined with anlotinib and immunotherapy for a patient with esophageal cancer and esophageal fistula",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0969804323005158",
+  "md5": "352251e1a2a40801f023af05efe9ece6",
+  "pid": "1-s2.0-S0969804323005158-main.pdf"
+ },
+ {
+  "id": "296101",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cclet.2024.110326",
+  "title": "Cation-driven assembly of gold(I) tweezers towards lighted circularly polarized phosphorescence",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1001841724008453",
+  "md5": "e25c88c2f8448bc330659329beb80004",
+  "pid": "1-s2.0-S1001841724008453-main.pdf"
+ },
+ {
+  "id": "296100",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bioorg.2025.109105",
+  "title": "Chalcones and their derivatives as inhibitors of key ABC transporters (ABCB1, ABCG2) to overcome tumor multidrug resistance",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S004520682500985X",
+  "md5": "43234bee1004ce2d128a4309abb88e65",
+  "pid": "1-s2.0-S004520682500985X-main.pdf"
+ },
+ {
+  "id": "296097",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2024.174005",
+  "title": "Cold deformation behavior and microstructure evolution of biomedical Cu-containing L605 alloy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838824005929",
+  "md5": "6b3e3d7b7d0eaa9ecb79d292ddece822",
+  "pid": "1-s2.0-S0925838824005929-main.pdf"
+ },
+ {
+  "id": "296092",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.146177",
+  "title": "Comprehensive analysis of immune infiltration, gene correlations, and traditional Chinese medicine in lung adenocarcinoma",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025067340",
+  "md5": "f92924ca5dbafec8f4053846e843caa9",
+  "pid": "1-s2.0-S0141813025067340-main.pdf"
+ },
+ {
+  "id": "296091",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jelechem.2024.118214",
+  "title": "Concanavalin A as carrier for sensitive electrochemical immunosensor based on AgNPs-rGO signal amplification",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1572665724001905",
+  "md5": "bfe670d1af4225388f79f956cb38e4f2",
+  "pid": "1-s2.0-S1572665724001905-main.pdf"
+ },
+ {
+  "id": "296085",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jphotochem.2025.116687",
+  "title": "Construction of novel S-scheme CuO/Bi2Sn2O7 heterojunction photocatalysts with optimized interfacial charge transfer for enhanced tetracycline removal",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1010603025004277",
+  "md5": "61dca7a395cea8b25a223a2e3a247cbb",
+  "pid": "1-s2.0-S1010603025004277-main.pdf"
+ },
+ {
+  "id": "296083",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.memsci.2025.124892",
+  "title": "Controllable oriented growth of heteroepitaxial MOF-on-MOF bilayer chiral membrane to realize improved enantioseparation",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0376738825012050",
+  "md5": "08f192644a599a372a2283335650a15e",
+  "pid": "1-s2.0-S0376738825012050-main.pdf"
+ },
+ {
+  "id": "296082",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.electacta.2025.146857",
+  "title": "Controlling microstructure of hard carbon material through chemical vapor filling method to achieve high ICE for sodium-ion batteries",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0013468625012174",
+  "md5": "097225fa698f18196acc27d6d25eb834",
+  "pid": "1-s2.0-S0013468625012174-main.pdf"
+ },
+ {
+  "id": "296073",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.micromeso.2025.113775",
+  "title": "Deactivation and regeneration through vapor-phase titanium supplementation of hierarchical TS-1 zeolite for the hydroxylation of phenol",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1387181125002902",
+  "md5": "a97a5160c9f90fce8463a89fa0276984",
+  "pid": "1-s2.0-S1387181125002902-main.pdf"
+ },
+ {
+  "id": "296071",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmc.2025.118144",
+  "title": "Design, synthesis and antibacterial evaluation of oxazolidinone derivatives containing N-methylglycyl or quaternary ammonium salts",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0968089625000859",
+  "md5": "b21ffad48aece48b40d189e45a35b685",
+  "pid": "1-s2.0-S0968089625000859-main.pdf"
+ },
+ {
+  "id": "296070",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmcl.2023.129166",
+  "title": "Design, synthesis and biological evaluation of novel tubulin inhibitors targeting colchicine sites",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0960894X23000446",
+  "md5": "0c5bba17e09258e0c39d12c0df3a74d4",
+  "pid": "1-s2.0-S0960894X23000446-main.pdf"
+ },
+ {
+  "id": "296067",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2023.125874",
+  "title": "Determining the maximum melting temperature of polymer crystals from a change in morphology of dewetting rims",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0032386123002045",
+  "md5": "8160d27fd182609d6434df1bb45121de",
+  "pid": "1-s2.0-S0032386123002045-main.pdf"
+ },
+ {
+  "id": "296064",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmc.2025.118396",
+  "title": "Discovery of hydroxamate derivatives as potent anti-gastric cancer agents via inducing oxidative stress and DNA damage",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0968089625003372",
+  "md5": "d18049e6ac0bac353f233c91a9c03643",
+  "pid": "1-s2.0-S0968089625003372-main.pdf"
+ },
+ {
+  "id": "296063",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bioorg.2025.109233",
+  "title": "Discovery of novel aniline-pyrimidine analogues as orally bioavailable dual VEGFR-2/tubulin inhibitors with potent antitumor and anti-angiogenesis efficacy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0045206825011137",
+  "md5": "30820ead5fa8fd7a12473f1a4e925078",
+  "pid": "1-s2.0-S0045206825011137-main.pdf"
+ },
+ {
+  "id": "296062",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bmc.2025.118203",
+  "title": "Discovery of tetracyclic 1,2,4-triazoline-fused dibenzo[b,f][1,4]oxazepine as a potent anti-colorectal cancer agent with good efficacy and low toxicity",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0968089625001440",
+  "md5": "4ee0077483f8683c90c6a6ee3c57fb15",
+  "pid": "1-s2.0-S0968089625001440-main.pdf"
+ },
+ {
+  "id": "296061",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.foodchem.2025.146640",
+  "title": "Disposable and ready-to-use deep eutectic solvent-immersed melt-blown polypropylene fabric for analyzing triazole pesticide residues in large-volume tea beverages and environmental waters",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0308814625038920",
+  "md5": "04e75a6554163dfc540bfc73163e9182",
+  "pid": "1-s2.0-S0308814625038920-main.pdf"
+ },
+ {
+  "id": "296058",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.microc.2025.115574",
+  "title": "Dual Ratiometric electrochemical sensor based on one-step electrodeposited CuNi-NPs modified flexible graphite paper electrode for the detection of adenine in human serum",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0026265X25029224",
+  "md5": "c85f49e0f26165e849ee067f133ca249",
+  "pid": "1-s2.0-S0026265X25029224-main.pdf"
+ },
+ {
+  "id": "296055",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jiec.2024.07.027",
+  "title": "Dual-layered carbonated hydroxyapatite/polypyrrole: A novel strategy for bone fracture repair implants",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1226086X24004726",
+  "md5": "afd0fb08b70fa76696c12de9c713bce1",
+  "pid": "1-s2.0-S1226086X24004726-main.pdf"
+ },
+ {
+  "id": "296054",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jechem.2025.10.019",
+  "title": "Dynamic covalent bond-mediated suppression of phase segregation in wide-bandgap perovskites",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2095495625008927",
+  "md5": "65e172d8eb72107e462010d314597825",
+  "pid": "1-s2.0-S2095495625008927-main.pdf"
+ },
+ {
+  "id": "296053",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jpowsour.2025.238767",
+  "title": "Dynamic simulation and energy efficiency analysis of a megawatt-scale proton exchange membrane water electrolysis system",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0378775325026035",
+  "md5": "739e3ddfe9939977c265edcc9fb641db",
+  "pid": "1-s2.0-S0378775325026035-main.pdf"
+ },
+ {
+  "id": "296049",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jallcom.2025.185271",
+  "title": "Effect of Ta2O5 nanoparticles addition on the microstructure, properties and biocompatibility of MAO coated Mg alloy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925838825068355",
+  "md5": "97316ae6012700c16a9a341c72f359cf",
+  "pid": "1-s2.0-S0925838825068355-main.pdf"
+ },
+ {
+  "id": "296048",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.electacta.2025.147888",
+  "title": "Effect of cold rolling on the microstructure, mechanical properties, and corrosion behavior of Ni-17Mo-7Cr alloy",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0013468625022455",
+  "md5": "627a867a48f81a05b127e010cddec0c4",
+  "pid": "1-s2.0-S0013468625022455-main.pdf"
+ },
+ {
+  "id": "296047",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.polymer.2024.126792",
+  "title": "Effect of melting survived nanocrystal on flow-induced crystallization of poly(L-lactic acid)",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0032386124001277",
+  "md5": "8a8d677c5e10255315f9d31b5a8457c0",
+  "pid": "1-s2.0-S0032386124001277-main.pdf"
+ },
+ {
+  "id": "296042",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijhydene.2024.08.368",
+  "title": "Electrocatalytic micro-environment regulation of ZIF-67 with broadened pore structure and unsaturated coordination sites for oxygen evolution reaction",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0360319924035377",
+  "md5": "33f6ee90597826c3998ca8a4f2b8a761",
+  "pid": "1-s2.0-S0360319924035377-main.pdf"
+ },
+ {
+  "id": "296040",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.comptc.2024.115038",
+  "title": "Electronic and optical properties modulation of heterostructures based on GeP3 and h-BN under biaxial strain",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2210271X24005772",
+  "md5": "0598e155c204cb0d5d88a414691381a9",
+  "pid": "1-s2.0-S2210271X24005772-main.pdf"
+ },
+ {
+  "id": "296039",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.164996",
+  "title": "Elucidating the intermediate behaviors in catalytic combustion of lean methane over Pd/CeO2 with different Pd coverage",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225027126",
+  "md5": "e0bdb0403cff53f7913fb4ecff459cdb",
+  "pid": "1-s2.0-S0169433225027126-main.pdf"
+ },
+ {
+  "id": "296038",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.radphyschem.2024.112028",
+  "title": "Empirical model for a three-dimensional dose verification system and its application in volumetric-modulated arc therapy for heterogeneous and long-target tumors",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0969806X24005206",
+  "md5": "73ae09a95e87e1f7b7bbd68e41bb8f62",
+  "pid": "1-s2.0-S0969806X24005206-main.pdf"
+ },
+ {
+  "id": "296037",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jconrel.2024.12.013",
+  "title": "Encapsulation of individual mammalian cells as a cell-based drug delivery carrier for lung cancer treatment",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0168365924008551",
+  "md5": "81efe38ee18724de1db985fa92d3c6c3",
+  "pid": "1-s2.0-S0168365924008551-main.pdf"
+ },
+ {
+  "id": "296036",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bios.2025.118276",
+  "title": "Endogenous peroxynitrite-responsive bioorthogonal SERS nanoprobe for ratiometric Raman imaging assessment of drug-induced liver injury",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0956566325011534",
+  "md5": "aced22fdc861629dde8a976a3878ffe8",
+  "pid": "1-s2.0-S0956566325011534-main.pdf"
+ },
+ {
+  "id": "296033",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2024.134989",
+  "title": "Engineering aptamers to enhance their interaction with protein target for selective inhibition of cell surface receptors",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813024057945",
+  "md5": "4d9dd4653cba39f651e66142ea3dc251",
+  "pid": "1-s2.0-S0141813024057945-main.pdf"
+ },
+ {
+  "id": "296032",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2024.136137",
+  "title": "Engineering novel benzothiazole fluorescent probes for promoting the specific parallel G-quadruplexes recognition and sensitively monitoring the topology switches",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400524008670",
+  "md5": "6f34d8cede82cce549117456a302441a",
+  "pid": "1-s2.0-S0925400524008670-main.pdf"
+ },
+ {
+  "id": "296030",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ssi.2024.116632",
+  "title": "Enhanced electrochromic performance of K x WO 3 by tailoring crystal structure and valence state",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0167273824001802",
+  "md5": "f4edd4eee7c2d7f986bf1118226a4030",
+  "pid": "1-s2.0-S0167273824001802-main.pdf"
+ },
+ {
+  "id": "296029",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2023.132595",
+  "title": "Enhanced electrodynamic characteristic and tunable band gap formed by the multilayer TixZn oxide film promising as a photoanode for solar cells",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775723016795",
+  "md5": "7d29626dc48a5a343363d6d89315b099",
+  "pid": "1-s2.0-S0927775723016795-main.pdf"
+ },
+ {
+  "id": "296028",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.snb.2025.139137",
+  "title": "Enhanced photoacoustic SF6 sensor using a blackbody radiation source with spherical helmholtz resonator",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0925400525019148",
+  "md5": "0eda62173274af25936ce6593a90f812",
+  "pid": "1-s2.0-S0925400525019148-main.pdf"
+ },
+ {
+  "id": "296027",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cplett.2024.141389",
+  "title": "Enhancing oxygen evolution reaction through self-reconstruction of 2D nanoarrays on nickel foam",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0009261424003269",
+  "md5": "d16a84678b20ab9a787c61b4bfaad88d",
+  "pid": "1-s2.0-S0009261424003269-main.pdf"
+ },
+ {
+  "id": "296023",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.mcat.2024.114085",
+  "title": "Experimental and theoretical investigation on the high activity La0.8-xSr0.2KxMn1-yByO3-δ perovskite catalyst with combined A and B site modifications",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S2468823124002682",
+  "md5": "fefd266b9521b2e9f1d4cb435a3811b1",
+  "pid": "1-s2.0-S2468823124002682-main.pdf"
+ },
+ {
+  "id": "296018",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2025.144779",
+  "title": "Fabrication of zirconium/chitosan functionalized magnetic carbon nanotubes for enhanced adsorption of alizarin red",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813025053310",
+  "md5": "db28446dabf67443e9d41f023c0faaba",
+  "pid": "1-s2.0-S0141813025053310-main.pdf"
+ },
+ {
+  "id": "296017",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.colsurfa.2024.134753",
+  "title": "Facile fabrication of cyclotriphosphazene crosslinked quercetin hollow nanocapsules by dual catalyst strategy for superfast and efficient removal of crystal violet over a wide pH range",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0927775724016170",
+  "md5": "86658d9cb8432ba10c87b15710fecc9e",
+  "pid": "1-s2.0-S0927775724016170-main.pdf"
+ },
+ {
+  "id": "296016",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.apsusc.2025.165523",
+  "title": "Facile synthesis of polyphenol-based spherical adsorbent for simultaneous adsorption and reduction of hexavalent chromium in an aqueous environment",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0169433225032404",
+  "md5": "965f63b16345b9d702b9338d1b8062b1",
+  "pid": "1-s2.0-S0169433225032404-main.pdf"
+ },
+ {
+  "id": "296014",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.cplett.2024.141329",
+  "title": "First-principles study on the effect of alloying elements on the Ehrlich-Schwoebel barriers on Ag(111)",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0009261424002665",
+  "md5": "c2b7cd1971e78cebdaa845e6a1c743a9",
+  "pid": "1-s2.0-S0009261424002665-main.pdf"
+ },
+ {
+  "id": "296013",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.ijbiomac.2024.135305",
+  "title": "Flexible and robust polyaniline/cross-linked collagen sponge with fibrils network structure as a piezoresistive sensing material",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0141813024061129",
+  "md5": "d0fe981a1b0e35de063e50af6c2a5f0c",
+  "pid": "1-s2.0-S0141813024061129-main.pdf"
+ },
+ {
+  "id": "296011",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.bios.2025.118005",
+  "title": "From lab to field: Supramolecular probe for gossypol real-time quantification",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0956566325008814",
+  "md5": "7185c5aa38809a9d563aae3f2a5c8564",
+  "pid": "1-s2.0-S0956566325008814-main.pdf"
+ },
+ {
+  "id": "296007",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.jfca.2024.107107",
+  "title": "Geographical origin traceability of chrysanthemum using hyperspectral imaging with class information-guided evolutionary multitasking wavelength selection and spatial feature extraction",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S0889157524011414",
+  "md5": "6f4ca28b34d552ec38fa8e0b6308d472",
+  "pid": "1-s2.0-S0889157524011414-main.pdf"
+ },
+ {
+  "id": "296005",
+  "owner": "owner_04",
+  "url": "https://doi.org/10.1016/j.culher.2024.08.002",
+  "title": "Green synthesis of silver-titanium dioxide nanoparticles using chestnut extract for the preservation of leather artifacts",
+  "domain": "linkinghub.elsevier.com",
+  "sdUrl": "https://www.sciencedirect.com/science/article/pii/S1296207424001584",
+  "md5": "75bc9138b054b7b8a2b754d438bb72d1",
+  "pid": "1-s2.0-S1296207424001584-main.pdf"
+ }
+]
