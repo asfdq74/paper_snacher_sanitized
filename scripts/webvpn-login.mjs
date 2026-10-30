@@ -10,6 +10,7 @@ import {
 import {
   WEBVPN_START_URL, MOTION_PROFILES, createCasLoginController,
   readCredentials, readCasPageState, isCasPageState, isWebVpnLoggedInState,
+  captchaOptionsFromArgs,
 } from './webvpn-auth.mjs';
 
 const args = parseArgs();
@@ -35,6 +36,14 @@ function usage() {
     '  --captcha auto|manual      默认 auto，失败后转人工',
     '  --captcha-profile <名称>   默认 human',
     '  --captcha-max <次数>       自动尝试上限，硬上限 2',
+    '  --slider-offset <像素>     默认 12.2',
+    '  --captcha-min-confidence   默认 50',
+    '  --captcha-min-score        默认 0.50',
+    '  --captcha-min-correlation  默认 0.55',
+    '  --captcha-min-margin       默认 0.02',
+    '  --captcha-retry-min-ms     失败后最小等待，默认 900',
+    '  --captcha-retry-max-ms     失败后最大等待，默认 3600',
+    '  --no-browser-autofill      禁止触发现有浏览器自动填充',
     '  --no-prompt                只使用 WEBVPN_USERNAME/WEBVPN_PASSWORD',
   ].join('\n'));
 }
@@ -114,6 +123,8 @@ async function main() {
 
   const auth = createCasLoginController(page, {
     credentials, captchaMode, captchaProfile, captchaMaxAttempts,
+    ...captchaOptionsFromArgs(args),
+    browserAutofill: !args['no-browser-autofill'],
     label: 'standalone-webvpn-login', logger: console.log,
   });
   const deadline = Date.now() + TIMEOUT_MIN * 60 * 1000;

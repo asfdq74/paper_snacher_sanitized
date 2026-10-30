@@ -17,7 +17,7 @@ import {
   requireList, resolveDownloadPath,
 } from './lib.mjs';
 import {
-  MOTION_PROFILES, createCasLoginController, readCredentials,
+  MOTION_PROFILES, createCasLoginController, readCredentials, captchaOptionsFromArgs,
 } from './webvpn-auth.mjs';
 
 const args = parseArgs();
@@ -127,7 +127,8 @@ async function waitForArticleEntitlement(page, ctx, {
     captchaMode,
     captchaProfile,
     captchaMaxAttempts,
-    browserAutofill: !credentials?.username || !credentials?.password,
+    ...captchaOptionsFromArgs(args),
+    browserAutofill: !args['no-browser-autofill'],
     label,
     logger: console.log,
   });

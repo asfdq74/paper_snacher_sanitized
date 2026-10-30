@@ -19,6 +19,8 @@
 - `scripts/lib.mjs` 提供统一的 `DOWNLOAD_ROOT` 和 `resolveDownloadPath()`。
 - `scripts/wiley.mjs` 遇到非 paywall 的 HTTP 403 时，会清理 Wiley profile/cookie、自动重登 WebVPN、重启浏览器并重试；默认最多 2 次。
 - `scripts/scidir.mjs` 已有风控页清理和 CARSI/WebVPN 登录流程。
+- `scripts/webvpn-auth.mjs` 默认拦截低置信度缺口识别，低质量结果只刷新验证码，不执行拖动。
+- 在线验证码样本可用 `node scripts\collect_webvpn_captcha_samples.mjs --max 5` 采集，样本只含图片和指标，不提交登录。
 - `scripts/watchdog.mjs` 不会把普通 `paywall` 计入连续故障。
 - `scripts/verify.py` 支持 Unicode 归一化和紧凑 DOI 匹配。
 

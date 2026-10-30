@@ -18,11 +18,61 @@ export const MOTION_PROFILES = [
 const DETECTOR = path.join(ROOT, 'scripts', 'detect_captcha_gap.py');
 const CAPTCHA_LOG = path.join(STATE, 'captcha_login.jsonl');
 const MAX_CAPTCHA_ATTEMPTS = 2;
+export const DEFAULT_CAPTCHA_QUALITY = Object.freeze({
+  minConfidence: 50,
+  minScore: 0.50,
+  minCorrelation: 0.55,
+  minMargin: 0.02,
+});
+const USERNAME_SELECTORS = [
+  '#un',
+  'input[name="username"]',
+  'input[name="user"]',
+  'input[name="account"]',
+  'input[autocomplete="username"]',
+];
+const PASSWORD_SELECTORS = [
+  '#pd',
+  'input[name="password"]',
+  'input[type="password"]',
+];
+const LOGIN_BUTTON_SELECTORS = [
+  '#index_login_btn .login_box_landing_btn',
+  '.login_box_landing_btn',
+  'form button[type="submit"]',
+  'form input[type="submit"]',
+];
 
 export function redact(value) {
   return String(value || '')
     .replace(/(ticket|token|code|password|passwd|pwd)=([^&\s]+)/gi, '$1=***')
     .replace(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+/g, '***@***');
+}
+
+export function captchaOptionsFromArgs(args = {}) {
+  const numberOption = (name, fallback) => {
+    const raw = args[name];
+    if (raw === undefined || raw === true) return fallback;
+    const value = Number(raw);
+    return Number.isFinite(value) ? value : fallback;
+  };
+  return {
+    captchaSliderOffset: numberOption('slider-offset', 12.2),
+    captchaRetryMinMs: Math.max(200, numberOption('captcha-retry-min-ms', 900)),
+    captchaRetryMaxMs: Math.max(400, numberOption('captcha-retry-max-ms', 3600)),
+    captchaQuality: {
+      minConfidence: numberOption(
+        'captcha-min-confidence',
+        DEFAULT_CAPTCHA_QUALITY.minConfidence,
+      ),
+      minScore: numberOption('captcha-min-score', DEFAULT_CAPTCHA_QUALITY.minScore),
+      minCorrelation: numberOption(
+        'captcha-min-correlation',
+        DEFAULT_CAPTCHA_QUALITY.minCorrelation,
+      ),
+      minMargin: numberOption('captcha-min-margin', DEFAULT_CAPTCHA_QUALITY.minMargin),
+    },
+  };
 }
 
 export function ensureWorkspaceDir(target) {
@@ -120,6 +170,41 @@ function between(random, range) {
   return range[0] + random() * (range[1] - range[0]);
 }
 
+function liveBetween(min, max) {
+  return min + Math.random() * (max - min);
+}
+
+async function humanClick(page, locator, { hoverMs = 120, holdMs = 90 } = {}) {
+  await locator.scrollIntoViewIfNeeded().catch(() => {});
+  const box = await locator.boundingBox();
+  if (!box) return false;
+  const viewport = page.viewportSize()
+    || await page.evaluate(() => ({ width: innerWidth, height: innerHeight })).catch(() => null);
+  const width = viewport?.width || 1400;
+  const height = viewport?.height || 950;
+  const targetX = box.x + box.width * liveBetween(0.35, 0.65);
+  const targetY = box.y + box.height * liveBetween(0.35, 0.65);
+  const startX = Math.max(2, Math.min(width - 2, targetX + liveBetween(-55, 55)));
+  const startY = Math.max(2, Math.min(height - 2, targetY + liveBetween(18, 48)));
+  const steps = Math.round(liveBetween(7, 14));
+  await page.mouse.move(startX, startY);
+  for (let index = 1; index <= steps; index++) {
+    const progress = index / steps;
+    const eased = 1 - (1 - progress) ** 3;
+    await page.mouse.move(
+      startX + (targetX - startX) * eased + liveBetween(-0.35, 0.35),
+      startY + (targetY - startY) * eased + liveBetween(-0.25, 0.25),
+    );
+    await sleep(liveBetween(9, 24));
+  }
+  await sleep(liveBetween(hoverMs * 0.7, hoverMs * 1.5));
+  await page.mouse.down();
+  await sleep(liveBetween(holdMs * 0.7, holdMs * 1.4));
+  await page.mouse.up();
+  await sleep(liveBetween(90, 260));
+  return true;
+}
+
 function summarizeTrace(events) {
   const deltas = events.map(event => Math.abs(event.dx)).filter(Boolean);
   const finalX = events.at(-1)?.x || 0;
@@ -143,16 +228,19 @@ function humanConfig(name) {
       duration: [900, 1200], overshoot: [3, 6], pathHeight: [1.2, 2.6],
       hoverDelay: [140, 260], holdAfterDown: [80, 150], midPause: [35, 85],
       overshootHold: [80, 150], finalHold: [90, 150], sampleStep: [11, 18],
+      overshootChance: 0.58, endJitter: 0.8,
     },
     human_slow: {
       duration: [1350, 1800], overshoot: [2, 4], pathHeight: [0.8, 1.8],
       hoverDelay: [180, 340], holdAfterDown: [120, 220], midPause: [60, 130],
       overshootHold: [150, 260], finalHold: [130, 220], sampleStep: [14, 23],
+      overshootChance: 0.38, endJitter: 1.0,
     },
     human_fast: {
       duration: [620, 850], overshoot: [6, 10], pathHeight: [1.5, 3.2],
       hoverDelay: [90, 170], holdAfterDown: [55, 100], midPause: [20, 55],
       overshootHold: [55, 110], finalHold: [70, 120], sampleStep: [9, 15],
+      overshootChance: 0.72, endJitter: 0.65,
     },
   }[name];
 }
@@ -161,17 +249,31 @@ function makeHumanTrace(name, distance, seed) {
   const config = humanConfig(name);
   if (!config) throw new Error(`未知人类化轨迹类型: ${name}`);
   const random = seededRandom(seed + name.length * 92821);
-  const durationMs = Math.round(between(random, config.duration));
-  const overshoot = Math.max(0, Math.min(
+  // Fitts-law-like duration scaling: farther targets take longer, but with
+  // diminishing growth rather than a linear delay.
+  const fitts = Math.log2(1 + Math.max(1, distance) / 40);
+  const distanceScale = Math.max(0.78, Math.min(1.45, fitts / Math.log2(5)));
+  const durationMs = Math.round(between(random, config.duration) * distanceScale);
+  const hasOvershoot = random() < config.overshootChance;
+  const overshoot = hasOvershoot ? Math.max(0, Math.min(
     between(random, config.overshoot),
     304 - distance,
-  ));
+  )) : 0;
   const pathHeight = between(random, config.pathHeight);
   const hoverBeforeDownMs = Math.round(between(random, config.hoverDelay));
   const holdAfterDownMs = Math.round(between(random, config.holdAfterDown));
-  const midPauseMs = Math.round(between(random, config.midPause));
+  const pauseRoll = random();
+  const pauseCount = pauseRoll < 0.18 ? 0 : pauseRoll < 0.82 ? 1 : 2;
+  const pausePoints = Array.from({ length: pauseCount }, () => 0.28 + random() * 0.46)
+    .sort((a, b) => a - b);
+  const pauseDurations = pausePoints.map(() => Math.round(between(random, config.midPause)));
   const overshootHoldMs = Math.round(between(random, config.overshootHold));
   const finalHoldMs = Math.round(between(random, config.finalHold));
+  const correctionSteps = overshoot > 0
+    ? 3 + Math.floor(random() * 7)
+    : (random() < 0.35 ? 1 + Math.floor(random() * 2) : 0);
+  const endX = Math.max(1, distance + between(random, [-config.endJitter, config.endJitter]));
+  const endY = between(random, [-0.45, 0.45]);
   const events = [];
   let elapsed = 0;
   let previousX = 0;
@@ -189,38 +291,40 @@ function makeHumanTrace(name, distance, seed) {
   };
   push(0, 0);
   const steps = Math.max(28, Math.round(durationMs / 14));
-  const pauseAt = 0.38 + random() * 0.24;
-  let paused = false;
+  let pauseIndex = 0;
   for (let index = 1; index <= steps; index++) {
     elapsed += between(random, config.sampleStep);
     const progress = index / steps;
     const eased = progress * progress * (3 - 2 * progress);
     const x = (distance + overshoot) * eased;
     const y = pathHeight * Math.sin(Math.PI * progress) * Math.sin(progress * Math.PI * 4.8);
-    const shouldPause = !paused && progress >= pauseAt;
-    push(x, y, shouldPause ? midPauseMs : 0);
-    paused ||= shouldPause;
+    const shouldPause = pauseIndex < pausePoints.length && progress >= pausePoints[pauseIndex];
+    const pauseMs = shouldPause ? pauseDurations[pauseIndex] : 0;
+    if (shouldPause) pauseIndex++;
+    push(x, y, pauseMs);
   }
   elapsed += overshootHoldMs;
   push(distance + overshoot, 0);
-  const correctionSteps = 7;
   for (let index = 1; index <= correctionSteps; index++) {
-    elapsed += 110 / correctionSteps;
+    elapsed += between(random, [90, 145]) / correctionSteps;
     const progress = index / correctionSteps;
     const x = index === correctionSteps
-      ? distance
+      ? endX
       : distance + overshoot * (1 - progress) ** 2;
     push(x, 0);
   }
   elapsed += finalHoldMs;
-  push(distance, 0);
+  push(endX, endY);
   return {
     schema: 'webvpn-captcha-trace/v1', createdAt: new Date().toISOString(),
     profile: name, seed, distance: Number(distance.toFixed(1)),
+    finalDistance: Number(endX.toFixed(1)),
     durationMs: events.at(-1).t, sampleHz: null,
     behavior: {
-      hoverBeforeDownMs, holdAfterDownMs, midPauseMs,
+      hoverBeforeDownMs, holdAfterDownMs,
+      pauseCount, pauseDurations, distanceScale: Number(distanceScale.toFixed(2)),
       overshootPx: Number(overshoot.toFixed(1)), overshootHoldMs, finalHoldMs,
+      correctionSteps, endJitter: { x: Number((endX - distance).toFixed(2)), y: Number(endY.toFixed(2)) },
       pathHeight: Number(pathHeight.toFixed(2)), nonIntegerCoordinates: true,
     },
     events, features: summarizeTrace(events),
@@ -272,20 +376,60 @@ export async function readCasPageState(page) {
         && style.display !== 'none' && style.visibility !== 'hidden';
     };
     const body = document.body ? document.body.innerText.slice(0, 800) : '';
-    const captcha = document.querySelector('#captcha');
+    const firstVisible = selectors => {
+      for (const selector of selectors) {
+        for (const element of document.querySelectorAll(selector)) {
+          if (visible(element)) return element;
+        }
+      }
+      return null;
+    };
+    const passwordInput = firstVisible([
+      '#pd',
+      'input[name="password"]',
+      'input[type="password"]',
+    ]);
+    const loginForm = passwordInput?.closest('form')
+      || document.querySelector('#un')?.closest('form')
+      || null;
+    const usernameInput = firstVisible([
+      '#un',
+      'input[name="username"]',
+      'input[name="user"]',
+      'input[name="account"]',
+      'input[autocomplete="username"]',
+    ]) || loginForm?.querySelector(
+      'input[type="text"], input[type="email"], input:not([type])',
+    );
+    const captcha = firstVisible(['#captcha', '.yidun_panel', '.yidun_control']);
     const token = document.querySelector('input[name="NECaptchaValidate"]');
-    const loginButton = [...document.querySelectorAll(
-      '#index_login_btn .login_box_landing_btn, .login_box_landing_btn',
-    )].find(visible);
-    const error = document.querySelector('#errormsg');
-    const tips = document.querySelector('.yidun_tips');
+    const explicitButton = firstVisible([
+      '#index_login_btn .login_box_landing_btn',
+      '.login_box_landing_btn',
+      'form button[type="submit"]',
+      'form input[type="submit"]',
+    ]);
+    const textButton = [...document.querySelectorAll(
+      'button, input[type="submit"], a[role="button"]',
+    )].find(element => (
+      visible(element) && /立即登录|登录|sign in/i.test(
+        `${element.innerText || ''} ${element.value || ''}`,
+      )
+    ));
+    const loginButton = explicitButton || textButton;
+    const error = document.querySelector(
+      '#errormsg, [role="alert"], .error-message, .login-error',
+    );
+    const tips = document.querySelector('.yidun_tips, [class*="yidun"][class*="tip"]');
     return {
       host: location.hostname, href: location.href, url: location.href,
       title: document.title, body, bodyHint: body.slice(0, 600),
-      hasAccount: Boolean(document.querySelector('#un')),
-      hasPassword: Boolean(document.querySelector('#pd')),
-      accountFilled: Boolean(document.querySelector('#un')?.value?.trim()),
-      passwordFilled: Boolean(document.querySelector('#pd')?.value),
+      hasAccount: Boolean(usernameInput),
+      hasPassword: Boolean(passwordInput),
+      accountField: Boolean(usernameInput),
+      passwordField: Boolean(passwordInput),
+      accountFilled: Boolean(usernameInput?.value?.trim()),
+      passwordFilled: Boolean(passwordInput?.value),
       captchaVisible: visible(captcha),
       captchaChildren: captcha ? captcha.querySelectorAll('*').length : 0,
       tokenReady: Boolean(token?.value), tokenLength: token?.value?.length || 0,
@@ -303,13 +447,19 @@ export async function readCasPageState(page) {
 }
 
 export function isCasPageState(state) {
-  return /^icas\.webvpn\.edu\.cn$/i.test(state?.host || '')
-    || /\/cas\/login/i.test(state?.href || '')
-    || /统一身份认证/.test((state?.body || '').slice(0, 200));
+  const host = String(state?.host || '').toLowerCase();
+  const href = String(state?.href || '');
+  const body = String(state?.body || '').slice(0, 800);
+  const loginControls = Boolean(
+    state?.hasAccount || state?.hasPassword || state?.captchaVisible || state?.tokenReady,
+  );
+  return /\/cas(?:\/|_)|auth4|icas|sso|login/i.test(href)
+    || /统一身份认证|统一身份|账号登录|sign in|log in/i.test(body)
+    || (loginControls && host !== new URL(WEBVPN_START_URL).hostname.toLowerCase());
 }
 
 export function isWebVpnLoggedInState(state) {
-  return /^webvpn\.webvpn\.edu\.cn$/i.test(state?.host || '')
+  return String(state?.host || '').toLowerCase() === new URL(WEBVPN_START_URL).hostname.toLowerCase()
     && !/\/cas\/login/i.test(state?.href || '')
     && !isCasPageState(state) && !state?.gateway;
 }
@@ -317,29 +467,49 @@ export function isWebVpnLoggedInState(state) {
 export async function fillCasCredentials(page, credentials) {
   const filled = { username: false, password: false };
   if (!credentials) return filled;
-  for (const [name, selector, value] of [
-    ['username', '#un', credentials.username],
-    ['password', '#pd', credentials.password],
+  for (const [name, selectors, value] of [
+    ['username', USERNAME_SELECTORS, credentials.username],
+    ['password', PASSWORD_SELECTORS, credentials.password],
   ]) {
     if (!value) continue;
-    const input = page.locator(selector).first();
-    if (!(await input.count())) continue;
-    const current = await input.inputValue().catch(() => '');
-    if (current) continue;
-    await input.fill(value);
-    filled[name] = true;
+    for (const selector of selectors) {
+      const input = page.locator(`${selector}:visible`).first();
+      if (!(await input.count())) continue;
+      const current = await input.inputValue().catch(() => '');
+      if (!current) {
+        await humanClick(page, input, { hoverMs: 100, holdMs: 70 });
+        await input.fill(value);
+        filled[name] = true;
+      }
+      break;
+    }
   }
   return filled;
 }
 
+export async function waitForCasLoginForm(page, timeoutMs = 6000) {
+  const deadline = Date.now() + timeoutMs;
+  let last = null;
+  while (Date.now() < deadline) {
+    last = await readCasPageState(page);
+    if (last?.hasAccount && last?.hasPassword) return last;
+    await sleep(250);
+  }
+  return last;
+}
+
 export async function clickCasLogin(page) {
-  const button = page.locator(
-    '#index_login_btn .login_box_landing_btn:visible, .login_box_landing_btn:visible',
-  ).last();
-  if (await button.count()) {
+  for (const selector of LOGIN_BUTTON_SELECTORS) {
+    const button = page.locator(`${selector}:visible`).last();
+    if (!(await button.count())) continue;
     try {
-      await button.click({ timeout: 10000 });
-      return true;
+      if (await humanClick(page, button, { hoverMs: 170, holdMs: 105 })) return true;
+    } catch {}
+  }
+  const textButton = page.getByRole('button', { name: /立即登录|登录|sign in/i }).last();
+  if (await textButton.count().catch(() => 0)) {
+    try {
+      if (await humanClick(page, textButton, { hoverMs: 170, holdMs: 105 })) return true;
     } catch {}
   }
   return false;
@@ -380,10 +550,12 @@ export async function waitForBrowserAutofill(page, timeoutMs = 8000) {
     }
     if (!focusAttempted && Date.now() > deadline - timeoutMs + 1800) {
       focusAttempted = true;
-      await page.locator('#un').first().click({ timeout: 3000 }).catch(() => {});
+      const username = page.locator('#un:visible, input[name="username"]:visible').first();
+      await humanClick(page, username).catch(() => {});
       await sleep(800);
       if (!(await readCasPageState(page))?.passwordFilled) {
-        await page.locator('#pd').first().click({ timeout: 3000 }).catch(() => {});
+        const password = page.locator('#pd:visible, input[type="password"]:visible').first();
+        await humanClick(page, password).catch(() => {});
       }
     }
     await sleep(250);
@@ -458,18 +630,54 @@ export function detectGapDistance(images, displayWidth, runDir) {
   return { ...JSON.parse(lines.at(-1)), annotated };
 }
 
+export function evaluateCaptchaQuality(detected, thresholds = DEFAULT_CAPTCHA_QUALITY) {
+  const quality = {
+    confidence: Number(detected?.confidence ?? 0),
+    score: Number(detected?.score ?? 0),
+    correlation: Number(detected?.correlation ?? 0),
+    margin: Number(detected?.score ?? 0) - Number(detected?.runner_up_score ?? 0),
+  };
+  const issues = [];
+  if (quality.confidence < thresholds.minConfidence) issues.push('minConfidence');
+  if (quality.score < thresholds.minScore) issues.push('minScore');
+  if (quality.correlation < thresholds.minCorrelation) issues.push('minCorrelation');
+  if (quality.margin < thresholds.minMargin) issues.push('minMargin');
+  return { ok: issues.length === 0, issues, quality };
+}
+
 export async function replayCaptchaTrace(page, trace, runDir) {
   const slider = page.locator('.yidun_slider').first();
   const box = await slider.boundingBox();
   if (!box) throw new Error('找不到可见的滑块手柄');
   const startX = box.x + box.width / 2;
   const startY = box.y + box.height / 2;
+  const pointerStartX = startX + liveBetween(
+    -Math.min(4, box.width * 0.15),
+    Math.min(4, box.width * 0.15),
+  );
+  const pointerStartY = startY + liveBetween(
+    -Math.min(3, box.height * 0.12),
+    Math.min(3, box.height * 0.12),
+  );
   const actual = [];
   const hoverBeforeDownMs = trace.behavior?.hoverBeforeDownMs ?? 120;
   const holdAfterDownMs = trace.behavior?.holdAfterDownMs ?? 0;
   const preReleaseSettleMs = trace.behavior?.finalHoldMs
     ? Math.max(150, Math.round(trace.behavior.finalHoldMs * 0.65)) : 180;
-  await page.mouse.move(startX, startY);
+
+  // Approach from a nearby point instead of teleporting directly onto the handle.
+  const approachX = pointerStartX - liveBetween(28, 62);
+  const approachY = pointerStartY + liveBetween(-12, 18);
+  const approachSteps = Math.round(liveBetween(6, 11));
+  await page.mouse.move(approachX, approachY);
+  for (let index = 1; index <= approachSteps; index++) {
+    const progress = index / approachSteps;
+    await page.mouse.move(
+      approachX + (pointerStartX - approachX) * progress + liveBetween(-0.4, 0.4),
+      approachY + (pointerStartY - approachY) * progress + liveBetween(-0.3, 0.3),
+    );
+    await sleep(liveBetween(10, 24));
+  }
   await sleep(hoverBeforeDownMs);
   await page.mouse.down();
   if (holdAfterDownMs) await sleep(holdAfterDownMs);
@@ -477,8 +685,8 @@ export async function replayCaptchaTrace(page, trace, runDir) {
   for (const event of trace.events) {
     const wait = startedAt + event.t - Date.now();
     if (wait > 0) await sleep(wait);
-    const x = startX + event.x;
-    const y = startY + event.y;
+    const x = pointerStartX + event.x;
+    const y = pointerStartY + event.y;
     await page.mouse.move(x, y);
     actual.push({
       t: Date.now() - startedAt, x: Number(x.toFixed(2)), y: Number(y.toFixed(2)),
@@ -502,20 +710,36 @@ export async function replayCaptchaTrace(page, trace, runDir) {
   });
   if (runDir) await page.screenshot({ path: path.join(runDir, 'captcha-dragged.png'), fullPage: true });
   await page.mouse.up();
+  await sleep(liveBetween(180, 420));
+  const endX = pointerStartX + (trace.finalDistance ?? trace.distance);
+  const exitX = endX + liveBetween(12, 38);
+  const exitY = pointerStartY + liveBetween(9, 25);
+  const exitSteps = Math.round(liveBetween(5, 10));
+  for (let index = 1; index <= exitSteps; index++) {
+    const progress = index / exitSteps;
+    await page.mouse.move(
+      endX + (exitX - endX) * progress,
+      pointerStartY + (exitY - pointerStartY) * progress,
+    );
+    await sleep(liveBetween(10, 22));
+  }
   return {
-    start: { x: Number(startX.toFixed(2)), y: Number(startY.toFixed(2)) },
+    start: { x: Number(pointerStartX.toFixed(2)), y: Number(pointerStartY.toFixed(2)) },
     elapsedMs: Date.now() - startedAt, hoverBeforeDownMs, holdAfterDownMs,
     preReleaseSettleMs, beforeRelease: dragState, actualEvents: actual,
   };
 }
 
-export async function waitForCaptchaResult(page, timeoutMs = 8000) {
+export async function waitForCaptchaResult(page, timeoutMs = 10000) {
   const deadline = Date.now() + timeoutMs;
   let last = null;
   while (Date.now() < deadline) {
     last = await readCasPageState(page);
-    if (last?.tokenLength > 0) return { accepted: true, state: last };
-    if (/失败|错误|重试|再试/.test(last?.tips || '')) {
+    const formReady = !last?.captchaVisible && last?.hasAccount && last?.hasPassword;
+    if (last?.tokenLength > 0 || formReady) {
+      return { accepted: true, reason: formReady ? 'form_ready' : 'token_ready', state: last };
+    }
+    if (/失败|错误|重试|再试|拖动.*(?:正确|完成)/.test(`${last?.tips || ''} ${last?.error || ''}`)) {
       return { accepted: false, reason: 'captcha_rejected', state: last };
     }
     await sleep(250);
@@ -533,7 +757,7 @@ function logCaptchaEvent(event) {
   logLine(CAPTCHA_LOG, { ts: new Date().toISOString(), ...event });
 }
 
-async function refreshCaptcha(page, previousSrc) {
+async function refreshCaptcha(page, previousAssetKey) {
   const refresh = page.locator(
     '.yidun_refresh:visible, .yidun-refresh:visible',
   ).first();
@@ -544,13 +768,17 @@ async function refreshCaptcha(page, previousSrc) {
   while (Date.now() < deadline) {
     await sleep(500);
     const assets = await readCaptchaAssets(page).catch(() => null);
-    if (assets?.backgroundSrc && assets.backgroundSrc !== previousSrc) return true;
+    const key = assets?.backgroundSrc || assets?.pieceSrc
+      ? `${assets.backgroundSrc}|${assets.pieceSrc}`
+      : '';
+    if (key && key !== previousAssetKey) return true;
   }
   return false;
 }
 
 async function solveCaptchaOnce(page, {
   label, profile, sliderOffset, requestedDistance, seed, attempt,
+  qualityThresholds = DEFAULT_CAPTCHA_QUALITY,
 }) {
   const runDir = newEvidenceDir(`${label}-attempt-${attempt}`);
   await page.screenshot({ path: path.join(runDir, 'captcha-before.png'), fullPage: true });
@@ -560,6 +788,35 @@ async function solveCaptchaOnce(page, {
   const detected = requestedDistance === null
     ? detectGapDistance(images, assets.backgroundRect.width, runDir)
     : { distance_css: Number(requestedDistance.toFixed(1)), source: 'manual', confidence: null };
+  const quality = requestedDistance === null
+    ? evaluateCaptchaQuality(detected, qualityThresholds)
+    : { ok: true, issues: [], quality: null };
+  fs.writeFileSync(
+    path.join(runDir, 'detector.json'),
+    `${JSON.stringify({ detected, quality }, null, 2)}\n`,
+  );
+  const assetKey = `${assets.backgroundSrc}|${assets.pieceSrc}`;
+  if (!quality.ok) {
+    await page.screenshot({
+      path: path.join(runDir, 'captcha-low-confidence.png'),
+      fullPage: true,
+    }).catch(() => {});
+    return {
+      accepted: false,
+      reason: `low_confidence:${quality.issues.join(',')}`,
+      detector: detected,
+      quality,
+      confidence: detected.confidence ?? null,
+      pieceDistance: detected.distance_css,
+      dragDistance: 0,
+      sliderOffset,
+      runDir,
+      previousBackgroundSrc: assets.backgroundSrc,
+      previousAssetKey: assetKey,
+      replay: null,
+      finalState: await readCasPageState(page),
+    };
+  }
   const pieceDistance = detected.distance_css;
   const maxDrag = Math.max(1, assets.backgroundRect.width - assets.sliderRect.width);
   const dragDistance = Math.min(maxDrag, Math.max(1, pieceDistance + sliderOffset));
@@ -574,14 +831,18 @@ async function solveCaptchaOnce(page, {
   }).catch(() => {});
   return {
     accepted: Boolean(outcome.accepted), reason: outcome.reason || '',
+    detector: detected, quality,
     confidence: detected.confidence ?? null, pieceDistance, dragDistance, sliderOffset,
-    runDir, previousBackgroundSrc: assets.backgroundSrc, replay, finalState: outcome.state,
+    runDir, previousBackgroundSrc: assets.backgroundSrc,
+    previousAssetKey: assetKey, replay, finalState: outcome.state,
   };
 }
 
 export async function solveWebVpnCaptcha(page, {
   label = 'login', profile = 'human', sliderOffset = 12.2,
   requestedDistance = null, seed = null, maxAttempts = MAX_CAPTCHA_ATTEMPTS,
+  qualityThresholds = DEFAULT_CAPTCHA_QUALITY,
+  retryMinMs = 900, retryMaxMs = 3600,
 } = {}) {
   if (!MOTION_PROFILES.includes(profile)) throw new Error(`未知轨迹类型: ${profile}`);
   if (!Number.isFinite(sliderOffset)) throw new Error('sliderOffset 必须是数字');
@@ -595,15 +856,28 @@ export async function solveWebVpnCaptcha(page, {
     try {
       last = await solveCaptchaOnce(page, {
         label, profile, sliderOffset, requestedDistance, seed, attempt,
+        qualityThresholds,
       });
       logCaptchaEvent({
         label, profile, attempt, accepted: last.accepted, reason: last.reason,
         confidence: last.confidence, pieceDistance: last.pieceDistance,
         dragDistance: Number(last.dragDistance.toFixed(2)),
+        score: last.detector?.score ?? null,
+        correlation: last.detector?.correlation ?? null,
+        qualityIssues: last.quality?.issues || [],
+        runDir: last.runDir || null,
         secs: Number(((Date.now() - startedAt) / 1000).toFixed(1)),
       });
       if (last.accepted) return last;
-      if (attempt < attempts && !(await refreshCaptcha(page, last.previousBackgroundSrc))) break;
+      if (attempt < attempts) {
+        const minDelay = Math.max(200, Math.min(retryMinMs, retryMaxMs));
+        const maxDelay = Math.max(minDelay, retryMaxMs);
+        const rejectedPenalty = String(last.reason || '').startsWith('low_confidence') ? 0 : 700;
+        const delayMs = Math.round(liveBetween(minDelay + rejectedPenalty, maxDelay + rejectedPenalty));
+        console.log(ts(), `验证码失败后等待 ${delayMs}ms 再刷新…`);
+        await sleep(delayMs);
+        if (!(await refreshCaptcha(page, last.previousAssetKey))) break;
+      }
     } catch (error) {
       last = { accepted: false, reason: redact(error?.message || error), confidence: null, runDir: null };
       logCaptchaEvent({ label, profile, attempt, accepted: false, reason: last.reason });
@@ -617,6 +891,10 @@ export function createCasLoginController(page, {
   credentials = null, captchaMode = 'auto', captchaProfile = 'human',
   browserAutofill = false,
   captchaMaxAttempts = MAX_CAPTCHA_ATTEMPTS, label = 'login', logger = console.log,
+  captchaSliderOffset = 12.2,
+  captchaQuality = DEFAULT_CAPTCHA_QUALITY,
+  captchaRetryMinMs = 900,
+  captchaRetryMaxMs = 3600,
 } = {}) {
   const mode = captchaMode === 'manual' ? 'manual' : 'auto';
   let captchaRoundStarted = false;
@@ -632,7 +910,10 @@ export function createCasLoginController(page, {
       if (state.gateway || state.wafBlocked) return { handled: true, state };
       if (submitted && Date.now() - submittedAt > 15000 && !state.tokenReady) submitted = false;
 
-      if (state.tokenReady) {
+      const formReadyWithoutToken = !state.captchaVisible
+        && state.hasAccount && state.hasPassword;
+      if (state.tokenReady || formReadyWithoutToken) {
+        await waitForCasLoginForm(page, 6000);
         const filled = await fillCasCredentials(page, credentials);
         if (filled.username || filled.password) {
           logger(ts(), '验证码已通过，已自动填写账号密码。');
@@ -643,7 +924,7 @@ export function createCasLoginController(page, {
             ? '已触发浏览器自动填充账号密码。'
             : '浏览器未自动填充账号密码，请手动填写。');
         }
-        const refreshed = await readCasPageState(page);
+        const refreshed = await waitForCasLoginForm(page, 2500);
         if (!submitted && refreshed?.accountFilled && refreshed?.passwordFilled
             && refreshed?.loginButtonVisible) {
           submitted = await clickCasLogin(page);
@@ -658,6 +939,8 @@ export function createCasLoginController(page, {
         logger(ts(), `检测到滑块验证，自动识别中（最多 ${captchaMaxAttempts} 次）…`);
         const result = await solveWebVpnCaptcha(page, {
           label, profile: captchaProfile, maxAttempts: captchaMaxAttempts,
+          sliderOffset: captchaSliderOffset, qualityThresholds: captchaQuality,
+          retryMinMs: captchaRetryMinMs, retryMaxMs: captchaRetryMaxMs,
         });
         if (result.accepted) logger(ts(), '滑块验证通过，等待登录表单就绪…');
         else logger(ts(), `自动验证码未通过（${result.reason || 'unknown'}），请手动完成滑块。`);

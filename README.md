@@ -59,7 +59,8 @@ SciDir/Wiley 的 `login` 命令和独立登录入口现在共用 `scripts\webvpn
 SciDir 的 WebVPN 登录默认复用 `.browser_profile_scidir` 中已保存的账号密码，
 验证码通过后主动触发浏览器自动填充；终端或环境变量提供的账号密码优先。
 
-默认自动识别滑块、拖动验证，并在通过后填写账号密码、点击登录。
+默认自动识别滑块，并在拖动前检查匹配置信度。低置信度结果会刷新验证码，
+不会直接发送错误拖动；通过后再等待登录表单、填写账号密码并提交。
 
 ```powershell
 node scripts\webvpn-login.mjs
@@ -72,14 +73,29 @@ node scripts\wiley.mjs login
 
 - `--captcha auto`：默认模式，自动识别并拖动；失败后保留可见窗口，转人工完成。
 - `--captcha manual`：只自动填写账号密码，滑块由人工完成。
-- `--captcha-profile human|human_slow|human_fast|linear|ease|jitter|stepped`：拖动轨迹，默认 `human`。
+- `--captcha-profile human|human_slow|human_fast`：真实站点推荐轨迹，默认 `human`。
+- `linear|ease|jitter|stepped`：仅保留给本地实验，不建议用于真实登录。
 - `--captcha-max 1|2`：单次登录自动尝试上限，默认 2；超过上限不会继续循环。
+- `--slider-offset 12.2`：滑块位移补偿，默认 `12.2px`。
+- `--captcha-min-confidence 50`：最低匹配置信度。
+- `--captcha-min-score 0.50`：最低综合匹配分数。
+- `--captcha-min-correlation 0.55`：最低纹理相关系数。
+- `--captcha-min-margin 0.02`：第一、第二候选的最小分差。
+- `--captcha-retry-min-ms 900` / `--captcha-retry-max-ms 3600`：失败后的随机等待范围。
+- `--no-browser-autofill`：禁止触发浏览器已有账号自动填充。
 - `--no-prompt`：不读取终端输入，仅使用环境变量。
 
 账号密码只存在于内存中，不写入文件。验证码事件写入
 `state\captcha_login.jsonl`，验证码截图与轨迹写入 `state\captcha\`；日志不会记录密码、
-Cookie 或带 token 的图片 URL。`webvpn-captcha-risk-test.mjs` 只保留为独立样本采集入口，
-主下载器不会启动它。
+Cookie 或带 token 的图片 URL。
+
+只采集在线验证码图片和检测指标、不拖动也不提交登录：
+
+```powershell
+node scripts\collect_webvpn_captcha_samples.mjs --max 5
+```
+
+输出目录为 `state\captcha_samples\run-<timestamp>\`。
 
 也可以预先设置环境变量后运行，避免交互输入：
 

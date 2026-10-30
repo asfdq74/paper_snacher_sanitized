@@ -20,7 +20,7 @@ import {
   injectCookies, loadCookieFile, requireList, resolveDownloadPath,
 } from './lib.mjs';
 import {
-  MOTION_PROFILES, createCasLoginController, readCredentials,
+  MOTION_PROFILES, createCasLoginController, readCredentials, captchaOptionsFromArgs,
 } from './webvpn-auth.mjs';
 
 const args = parseArgs();
@@ -128,6 +128,8 @@ async function doLogin() {
     captchaMode,
     captchaProfile,
     captchaMaxAttempts,
+    ...captchaOptionsFromArgs(args),
+    browserAutofill: !args['no-browser-autofill'],
     label: 'wiley-webvpn-login',
     logger: console.log,
   });
